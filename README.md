@@ -2,6 +2,21 @@
 
 This is a custom annotation tool created to conveniently annotate multiple video + audio recordings from  experiments with the video game Ruby's Mission. The tool has been refactored such that we could conveniently synchronize multiple media streams, to load more detailed mini game information, and finally to improve some quality of life aspects in the annotation workflow.
 
+## Installation instructions
+1. Download the application by clicking on the green button with the word "<> Code" and then press "Download ZIP" from the drop-down menu.
+2. Extract the ZIP-file on your device.
+3. Within the extracted folder, you'll find 2 folders and 2 files:
+   - **Build:** this folder contains the actual application
+   - **images:** this folder contains the images for the README
+   - **README.md:** you are currently reading this file
+   - **Annotation.md:** [this file](https://github.com/Dionysi/AnnotationTool-Release/blob/master/Annotation.md) contains the annotation intstructions
+4. Open the "Build" folder.
+5. Double click the file "Annotation" (or "Annotation.exe" if you got file-extensions enabled) to run the annotation tool.
+
+## Annotation instructions
+You may find the annotation instructions via [this link](https://github.com/Dionysi/AnnotationTool-Release/blob/master/Annotation.md).
+
+
 # Workflow
 ---
 ## Creating a new annotation project
