@@ -1,7 +1,3 @@
-## For testing the schema
-- C:\Users\Dio\Documents\PhD\Research\Ruby's Mission\Data\videos\OBS_Vleuterweide\Experiments_14-03-2023\8abee3e6-944f-4bc5-b324-ab1efef689f4
-- C:\Users\Dio\Documents\PhD\Research\Ruby's Mission\Data\videos\Nieuwe_Regentesseschool\Experiments_24-03-2023\4d14232e-bfc0-433c-9c27-a4bbe19c5e65
-
 ## Labels in the project
 1. Question
 2. Command
