@@ -39,9 +39,9 @@ The annotations for social interaction are based on the Stimulus-Response (SR) m
 
 - Any _verbal action_ that is a response (cat. 6) is always annotated as a response. Only when a _verbal action_ is not a response, can it be annotated as a stimulus (categories 1 to 5). For example, when a person asks a _question_ (cat. 1) as a _response_ (cat. 6) to another person, this action is annotated as category 6. 
 
-- When it is _unclear_ whether a _verbal action_ is a response (cat. 6) and the action fits well within any of the stimuli, the action is annotated as stimulus (i.e. cat. 1 to 5). 
+- When it is _unclear_ if a _verbal action_ is a response (cat. 6) and the action fits well within any of the stimuli, the action is annotated as stimulus (i.e. cat. 1 to 5). 
 
-- When it is _unclear_ whether a _verbal action_ falls within **any** of the categories, it is marked **ambiguous**.
+- When it is _unclear_ if a _verbal action_ falls within **any** of the categories, it is marked **ambiguous**.
 
 - When a _verbal action_ is not a _response_ (cat. 6) and it is _ambiguous_ to which _stimuli_ (i.e. categories 1 to 5) the action belongs, it is marked **ambiguous**.
 
