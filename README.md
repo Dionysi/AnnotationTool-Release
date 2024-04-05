@@ -6,7 +6,7 @@ This is a custom annotation tool created to conveniently annotate multiple video
 1. Download the application by clicking on the green button with the text "<> Code" and then press "Download ZIP" from the drop-down menu.
 2. Extract the ZIP-file on your device.
 3. Within the extracted folder, you'll find 3 folders and 2 files:
-   - **Annotations:** this folder contains the project files for the annotations (excluding the media files).
+   - **Annotations:** this folder contains the project files for the annotations (not including the media files).
    - **Build:** this folder contains the actual application
    - **images:** this folder contains the images for the README
    - **README.md:** you are currently reading this file
