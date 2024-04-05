@@ -1,4 +1,4 @@
-# Annotion Tool
+# Annotation Tool
 
 This is a custom annotation tool created to conveniently annotate multiple video + audio recordings from  experiments with the video game Ruby's Mission. The tool has been refactored such that we could conveniently synchronize multiple media streams, to load more detailed mini game information, and finally to improve some quality of life aspects in the annotation workflow.
 
@@ -16,6 +16,21 @@ This is a custom annotation tool created to conveniently annotate multiple video
 
 ## Annotation instructions
 You may find the annotation instructions via [this link](https://github.com/Dionysi/AnnotationTool-Release/blob/master/Annotation.md).
+
+## Table of Contents
+- [Workflow](#creating-a-new-annotation-project)
+   - [Creating a new project](#creating-a-new-annotation-project)
+   - [Loading an existing project](#loading-a-project-from-disk)
+- [Overview](#overview-of-windows)
+  - [Timeline](#timeline-window)
+  - [Annotation Window](#annotation-window)
+- [Keyboard Shortcuts](#keyboard-shortcuts)
+  - [General](#general-controls)
+  - [Project](#project-controls)
+  - [Media](#media-controls)
+  - [Annotation](#annotation-controls)
+- [Project File Structure](#project-file-structure)
+ 
 
 
 # Workflow
@@ -210,7 +225,8 @@ The following controls are available when a project **has** been loaded.
 [Right] Forward a single frame and pauses media.\
 [Ctrl + Alt + F] Toggle auto focus on timeline when current presentation time moves outside of the visible window.
 
-## Annotation Controls (Only when a project has been loaded.)
+## Annotation Controls 
+(After a project has been loaded)
 
 [Ctrl + Z] Undo action.\
 [Ctrl + Y] Redo action.
