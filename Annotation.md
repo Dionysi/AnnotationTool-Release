@@ -35,7 +35,7 @@ The annotations for social interaction are based on the Stimulus-Response (SR) m
 
 - A _verbal action_ is any sound that is produced by an individual and that contains language.
 
-- A _response_ (cat. 6) is any _verbal action_ that is triggered by a prior stimulus or response.
+- A _response_ (cat. 6) is any _verbal action_ that is triggered by a prior stimulus or response, that is concerned with the same topic as the previous _verbal actions_.
 
 - Any _verbal action_ that is a response (cat. 6) is always annotated as a response. Only when a _verbal action_ is not a response, can it be annotated as a stimulus (categories 1 to 5). For example, when a person asks a _question_ (cat. 1) as a _response_ (cat. 6) to another person, this action is annotated as category 6. 
 
@@ -66,8 +66,3 @@ The annotations for social interaction are based on the Stimulus-Response (SR) m
 - Argyle, M. (2017). Social interaction: process and products. Routledge.
 
 - Bardis, P. D. (1979). Social interaction and social processes. Social Science, 54(3), 147-167.
-  
-
-## Test video's:
-
-- C:\Users\Dio\Documents\PhD\Research\Ruby's MMission\Data\videos\OBS_Vleuterweide\Experiments_14-03-2023\8abee3e6-944f-4bc5-b324-ab1efef689f4
