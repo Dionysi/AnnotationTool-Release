@@ -3,7 +3,7 @@
 This is a custom annotation tool created to conveniently annotate multiple video + audio recordings from  experiments with the video game Ruby's Mission. The tool has been refactored such that we could conveniently synchronize multiple media streams, to load more detailed mini game information, and finally to improve some quality of life aspects in the annotation workflow.
 
 ## Installation instructions
-1. Download the application by clicking on the green button with the word "<> Code" and then press "Download ZIP" from the drop-down menu.
+1. Download the application by clicking on the green button with the text "<> Code" and then press "Download ZIP" from the drop-down menu.
 2. Extract the ZIP-file on your device.
 3. Within the extracted folder, you'll find 2 folders and 2 files:
    - **Build:** this folder contains the actual application
