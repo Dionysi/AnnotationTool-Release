@@ -1,3 +1,8 @@
+## For testing the schema
+- C:\Users\Dio\Documents\PhD\Research\Ruby's Mission\Data\videos\OBS_Vleuterweide\Experiments_14-03-2023\8abee3e6-944f-4bc5-b324-ab1efef689f4
+- C:\Users\Dio\Documents\PhD\Research\Ruby's Mission\Data\videos\Nieuwe_Regentesseschool\Experiments_24-03-2023\4d14232e-bfc0-433c-9c27-a4bbe19c5e65
+- C:\Users\Dio\Documents\PhD\Research\Ruby's Mission\Data\videos\Odyssee\Experiments_31-05-2023\f4725209-b036-4fc5-a625-9acbdba3bed3
+
 ## Labels in the project
 1. Question
 2. Command
@@ -9,33 +14,33 @@
 
 ---
 
-# Annotation Schema
+# Annotation Scheme
 
 The annotations for social interaction are based on the Stimulus-Response (SR) model from psychology. This model says that every social action is determined by the previous social action of another person (Argyle, 2017). Social interaction is the way in which persons mutually influence one another (Bardis, 1979). Our rules are based upon this model of social interaction, and has been slightly adjusted to better fit within a video game context. Every _verbal action_ is considered social interaction when it fits in one of the following categories:
 
   
 **Stimuli**
 
-1) Questions.
+1) Questions **directed** at _others_.
 
-2) Commands.
+2) Commands **directed** at _others_.
 
 3) Remarks that are **about** at least one _other_ person in the group.
 
 4) Remarks that are **directed** at at least one _other_ person in the group.
 
-5) _Verbal actions_ that others respond to.
+5) _Verbal actions_ that others _respond_ to.
 
 **Response**
 
-6) All verbal actions using language as a response to **another person's** _verbal actions_. When one person continues with multiple _verbal actions_ within the context of the response to the other person, each of these _verbal actions_ is categorised as a response. Only when the subject of the interaction changes, can a repeated _verbal action_ be categorized as another category. 
+6) All verbal actions using language as a response to **another person's** _verbal action_. When one person continues with multiple _verbal actions_ within the context of the response to the other person, each of these _verbal actions_ is categorised as a response. Only when the subject of the interaction changes, can a repeated _verbal action_ be categorized as another category.
 
 
 ## Rules for annotating
 
-- A _verbal action_ is any sound that is produced by an individual and that contains language.
+- A _verbal action_ is any sound that is produced by an individual and that contains language. All _verbal actions_ directed at any other person outside of the group of players is **not** annotated.
 
-- A _response_ (cat. 6) is any _verbal action_ that is triggered by a prior stimulus or response, that is concerned with the same topic as the previous _verbal actions_.
+- A _response_ (cat. 6) is any _verbal action_ that is triggered by prior stimulus of another person or any response (others and self), that is concerned with the same topic as the previous _verbal actions_.
 
 - Any _verbal action_ that is a response (cat. 6) is always annotated as a response. Only when a _verbal action_ is not a response, can it be annotated as a stimulus (categories 1 to 5). For example, when a person asks a _question_ (cat. 1) as a _response_ (cat. 6) to another person, this action is annotated as category 6. 
 

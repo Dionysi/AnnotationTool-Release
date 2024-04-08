@@ -1,37 +1,6 @@
-# Annotation Tool
+# Annotion Tool
 
 This is a custom annotation tool created to conveniently annotate multiple video + audio recordings from  experiments with the video game Ruby's Mission. The tool has been refactored such that we could conveniently synchronize multiple media streams, to load more detailed mini game information, and finally to improve some quality of life aspects in the annotation workflow.
-
-## Installation instructions
-1. Download the application by clicking on the green button with the text "<> Code" and then press "Download ZIP" from the drop-down menu.
-2. Extract the ZIP-file on your device.
-3. Within the extracted folder, you'll find 3 folders and 2 files:
-   - **Annotations:** this folder contains the project files for the annotations (not including the media files).
-   - **Build:** this folder contains the actual application
-   - **images:** this folder contains the images for the README
-   - **README.md:** you are currently reading this file
-   - **Annotation.md:** [this file](https://github.com/Dionysi/AnnotationTool-Release/blob/master/Annotation.md) contains the annotation intstructions
-5. Open the "Build" folder.
-6. Double click the file "Annotation" (or "Annotation.exe" if you got file-extensions enabled) to run the annotation tool.
-
-## Annotation instructions
-You may find the annotation instructions via [this link](https://github.com/Dionysi/AnnotationTool-Release/blob/master/Annotation.md).
-
-## Table of Contents
-- [Workflow](#creating-a-new-annotation-project)
-   - [Creating a new project](#creating-a-new-annotation-project)
-   - [Loading an existing project](#loading-a-project-from-disk)
-- [Overview](#overview-of-windows)
-  - [Timeline](#timeline-window)
-  - [Annotation Window](#annotation-window)
-- [Keyboard Shortcuts](#keyboard-shortcuts)
-  - [General](#general-controls)
-  - [Project](#project-controls)
-  - [Media](#media-controls)
-  - [Annotation](#annotation-controls)
-- [Project File Structure](#project-file-structure)
- 
-
 
 # Workflow
 ---
@@ -152,6 +121,7 @@ The media control section is divided into a left (volume controls) and right (pa
   * Volume slider for adjusting the volume for the corresponding media stream.
   * Textual audio level indicator. Clicking on the text resets the audio to 1.00.
   * Audio icon. You may click the icon for muting/unmuting the corresponding media stream.
+     * Ctrl + clicking the audio icon mutes/unmutes **all other streams**, while **umuting** the current stream.
 
 The information on the right side indicates:
   * Player code information for the participant.
@@ -225,8 +195,7 @@ The following controls are available when a project **has** been loaded.
 [Right] Forward a single frame and pauses media.\
 [Ctrl + Alt + F] Toggle auto focus on timeline when current presentation time moves outside of the visible window.
 
-## Annotation Controls 
-(After a project has been loaded)
+## Annotation Controls (Only when a project has been loaded.)
 
 [Ctrl + Z] Undo action.\
 [Ctrl + Y] Redo action.
@@ -246,7 +215,6 @@ The following controls are available when a project **has** been loaded.
 
 [Ctrl + Alt + L] Toggle always display highlight labels in the timeline over the highlight overlays.
 [Ctrl + Alt + F] Auto focus on the current frame when it goes out-of-view when playing the media. 
-
 
 # Project File Structure
 Project data is stored as plain-text in a file with extension ".nnt". A valid project file has the following structure:
