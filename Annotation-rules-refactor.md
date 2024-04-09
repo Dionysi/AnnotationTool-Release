@@ -15,7 +15,7 @@ The annotations for social interaction are based on the Stimulus-Response (SR-)m
 
 The present scheme only considers verbal actions for annotations. A **verbal action** is any sound an individual produces with their voice that contains language. Verbal actions are categorized as either a [stimulus](#stimulus), as a [response](#response), or as [ambiguous](#ambiguous). In the present annotation scheme a **conversation** refers to a stimulus followed by _at least one_ response. 
 
-Following this section is a extensive overview of the rules for annotating verbal actions according to the present annotation scheme. For a compact overview of the annotation rules, please refer to the [overview of the annotation rules](#overview).
+Following this section is a extensive overview of the rules for annotating verbal actions according to the present annotation scheme. For a compact overview of the annotation rules, please refer to the [overview of the annotation rules](#overview-of-the-annotation-rules).
 
 ### Stimulus 
 
@@ -87,7 +87,7 @@ Situations may arise in which it is **ambiguous** (category 7) how to categorize
 - **(Rule 8)** When it is evident that a verbal action does **not** categorize as a stimulus or as a response, the verbal action is **not** categorized (i.e. left unlabeled).
 
 
-## Overview
+## Overview of the Annotation Rules
 
 This section provides a compact overview of the annotation rules. Please refer to the previous sections for more extensive descripitions.
 
