@@ -38,7 +38,7 @@ The stimulus category has been subdivided into multiple sub-categories relevant 
 
 A **response** (category 6) is any verbal action that is a reaction to **another person's _verbal action_** (stimulus or response). Below are the rules regarding the annotation of responses:
 
-- **(Rule 2)** A stimulus may be used as a response. In this case, the verbal action is **always** annotated as a response (cat. 6). Consider the example below:
+- **(Rule 2)** A stimulus can be used as a response. In this case, the verbal action is **always** annotated as a response (cat. 6). Consider the example below:
   
   > **Verzamelaar:** "Ga die kant op!" (cat.  2)\
   > **Bestuurder:** "Welke kant?" (cat.  6)\
