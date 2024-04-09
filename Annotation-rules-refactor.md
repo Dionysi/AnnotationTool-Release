@@ -36,7 +36,7 @@ The stimulus category has been subdivided into multiple sub-categories relevant 
     > **kind 1:** "Die blauwe!" (cat. 4) _// Het kind geeft hier aan dat ze een blauwe graffiti tag ziet._\
     > **Kind 1:** "Ik ga naar die blauwe!" (cat. 4) _// Vervolgens communiceert het kind naar de groep dat zij hiernaartoe navigeert._
     
-    **Category 4 continued:** Verbal actions that consist of reading out-loud what is on the screen are **not** considered this category (4). You may find all information on written texts in the [mini-game section](#mini-games) for reference during annotating. Consider the following example:
+    **Category 4 continued:** Verbal actions that consist of reading out-loud what is on the screen are **not** considered this category. You may find all information on written texts in the [mini-game section](#mini-games) for reference during annotating. Consider the following example:
 
     > **Kind 1:** "Toen ik mijn advies kreeg. Lachen."
 
