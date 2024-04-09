@@ -1,15 +1,8 @@
-## Labels in the project
-1. Question
-2. Command
-3. Remark about
-4. Remark to
-5. Unintended
-6. Response
-7. Ambiguous
+# Annotation Scheme for Social Interactions in Ruby's Mission
 
----
+**How to use this document?** TODO: write a short paragraph on how to use this document.
 
-# Background
+## Background
 
 The annotations for social interaction are based on the Stimulus-Response (SR-)model from psychology. Social interaction is the way in which persons mutually influence one another (Bardis, 1979). The SR-model says that every social action is determined by the previous social action of another person (Argyle, 2017). Our annotation rules are based upon this model of social interaction. It has been slightly adjusted to better fit within our specific context. 
 
@@ -18,69 +11,82 @@ The annotations for social interaction are based on the Stimulus-Response (SR-)m
 - Argyle, M. (2017). Social interaction: process and products. Routledge.
 - Bardis, P. D. (1979). Social interaction and social processes. Social Science, 54(3), 147-167.
 
-# Annotation rules
+## Annotation rules
 
-The present scheme only considers **verbal actions** for annotations. A **verbal action** is any sound an individual produces with their voice that contains language. Verbal actions are categorized as either:
+The present scheme only considers verbal actions for annotations. A **verbal action** is any sound an individual produces with their voice that contains language. Verbal actions are categorized as either a stimulus or as a response. In this scheme, a **conversation** refers to a stimulus followed by _at least one_ response. 
 
-- **Stimulus:** a stimulus is either (a) a verbal action that is meant to be responded to; or (b) a verbal action that others respond to. This category has been subdivided into multiple sub-categories relevant for our video game context. A verbal action is considered a stimulus when it fits within any of the following sub-categories:
-  - **(1) Question:** a person's verbal action contains a question directed at, at least one _other_ person in the group.
-  - **(2) Command:** a verbal action contains a command directed at, at least one _other_ person in the group.
-  - **(3) Remark about:** a verbal action contains a remark about at least one _other_ person in the group.
-  - **(4) Remark to:** a verbal action contains a remark directed at, at least one _other_ person in the group.
-  - **(5) Unintentional:** a verbal action that _another_ person responds to, although this was not necessarily intended.
+### Stimulus 
 
-- **(6) Response:** any verbal action is a response when it is a reaction on _any_ previous verbal action. This means that it does not matter whether the previous action was a stimulus, response, or neither.  
+A **stimulus** is either **(a)** a verbal action that is meant to be responded to by others _verbally_ (i.e. through a verbal action), or  _in-game_ (i.e. through an action in the video game); or **(b)** a verbal action that others respond to _verbally_, even though this was not the speakers intention. A stimulus may also be used as a response during social interaction. These verbal actions (that are both stimulus and response) are annotated as a _response_ in the present annotation scheme (see [Section "Response"](#Response)).
 
-All verbal actions using language as a response to **another person's** _verbal action_. When one person continues with multiple _verbal actions_ within the context of the response to the other person, each of these _verbal actions_ is categorised as a response. Only when the subject of the interaction changes, can a repeated _verbal action_ be categorized as another category.
+The stimulus category has been subdivided into multiple sub-categories relevant for our social context. A verbal action is considered a stimulus when it fits within any of the following sub-categories:
 
-A _response_ (cat. 6) is any _verbal action_ that is triggered by prior stimulus of another person or any response (others and self), that is concerned with the same topic as the previous _verbal actions_.
-
-
-- **(7) Ambiguous:**
-
+  - **(Cat. 1) Question:** a verbal action that contains a _question_ directed to at least one _other_ person in the group.
   
+  - **(Cat. 2) Command:** a verbal action that contains a _command_ directed to at least one _other_ person in the group.
+
+  - **(Cat. 3) Remark about:** a verbal action contains a _remark about_ at least one _other_ person in the group.
+    
+  - **(Cat. 4) Remark to:** a verbal action contains a _remark_ meant for at least one _other_ person in the group. Verbal actions about the shared task (i.e. the gameplay) are also considered as this sub-category.
+    
+    Verbal actions that consist of reading out-loud what is on the screen are **not** considered this category (4). You may find all information on written texts in the [mini-game section]() for reference during annotating.
+    
+  - **(Cat. 5) Unintentional:** any verbal actions that _another_ person in the group responds to, even though this may not have been the speakers intention.
 
 
+### Response
+
+A **response** (category 6) is any verbal action that is a reaction to **another person's _verbal action_** (stimulus or response). Below are the rules regarding the annotation of responses:
+
+- (Rule 1) A stimulus may be used as a response. In this case, the verbal action is **always** annotated as a response (cat. 6). Consider the example below:
   
-**Stimuli**
+  > **Verzamelaar:** "Ga die kant op!" (cat.  2)\
+  > **Bestuurder:** "Welke kant?" (cat.  6)\
+  > **Verzamelaar:** "Naar rechts." (cat.  6)
+  
+  The first line in the example is a command (category 2) directed to the driver to move in a certain direction. On the second line, the driver responds with a question (category 6) asking for clarification on the exact direction to move to. Finally, the collector responds with a remark about the shared task (category 6), providing clarification on the correct direction. Since both verbal actions on line 2 and 3 are responses to a prior stimulus or response, they must both be categorized as a response.
 
-1) Questions **directed** at _others_.
+- (Rule 2) When it is ambiguous whether a verbal action is a response **and** the verbal action clearly categorizes as any of the stimuli, the verbal action is then annotated as a stimulus. 
 
-2) Commands **directed** at _others_.
+- (Rule 3) When a person follows up with multiple consecutive verbal actions within the context of a response to another person, each of these verbal actions are categorized as a response. For example:
 
-3) Remarks that are **about** at least one _other_ person in the group.
+  > **Kind 1:** "Hoe denk jij dat Thijs zich kan voelen?" (cat. 1)\
+  > **Kind 2:** "Hmm, ik denk misschien wel boos..." (cat. 6)\
+  > \*silence\*\
+  > **Kind 2:** "En ook wel jaloers!" (cat. 6)
 
-4) Remarks that are **directed** at at least one _other_ person in the group.
+- (Rule 4) During a conversation the topic of the conversation may transition smoothly. When this is the case, consecutive verbal actions are continued to be categorized as responses. When a verbal action introduces an abrupt change of topic, the action is **not** categorized as a response. Consider this example during the scenario mini-game for the emotion 'jealousy'. 
 
-5) _Verbal actions_ that others _respond_ to.
-
-**Response**
-
-6) All verbal actions using language as a response to **another person's** _verbal action_. When one person continues with multiple _verbal actions_ within the context of the response to the other person, each of these _verbal actions_ is categorised as a response. Only when the subject of the interaction changes, can a repeated _verbal action_ be categorized as another category.
-
-
-## Rules for annotating
-
-- A _verbal action_ is any sound that is produced by an individual and that contains language. All _verbal actions_ directed at any other person outside of the group of players is **not** annotated.
-
-- A _response_ (cat. 6) is any _verbal action_ that is triggered by prior stimulus of another person or any response (others and self), that is concerned with the same topic as the previous _verbal actions_.
-
-- Any _verbal action_ that is a response (cat. 6) is always annotated as a response. Only when a _verbal action_ is not a response, can it be annotated as a stimulus (categories 1 to 5). For example, when a person asks a _question_ (cat. 1) as a _response_ (cat. 6) to another person, this action is annotated as category 6. 
-
-- When it is _unclear_ if a _verbal action_ is a response (cat. 6) and the action fits well within any of the stimuli, the action is annotated as stimulus (i.e. cat. 1 to 5). 
-
-- When it is _unclear_ if a _verbal action_ falls within **any** of the categories, it is marked **ambiguous**.
-
-- When a _verbal action_ is not a _response_ (cat. 6) and it is _ambiguous_ to which _stimuli_ (i.e. categories 1 to 5) the action belongs, it is marked **ambiguous**.
-
-- All _verbal actions_ about the shared task (i.e. the game) that are not a response, are annoted as category 4. _Verbal actions_ that consist of reading out loud what is on the screen are **not** annotated as category 4. 
+  > **Kind 1:** "Hoe zou Thijs zich kunnen voelen?" (cat. 1)\
+  > **Kind 2:** "Jaloers." (cat. 6)\
+  > [...]\
+  > **Kind 2:** "En eeh... Boos." (cat. 6)\
+  > **Kind 1:** "Boos, maar ook bang." (cat. 6)\
+  > [...]\
+  > **Kind 1:** "Hij is bang." (cat. 6)
+  > 
+  > _// Hier vindt een smooth transitie plaats van hoe Thijs zich zou kunnen voelen naar waarom Thijs bang zou zijn. Opeenvolgende verbale acties op hetzelfde onderwerp gaan door als response._
+  > 
+  > **Kind 2:** "Hoezo is die bang?" (cat. 6)\
+  > **Kind 1:** "Hij kan zich, wacht even hoor [...] Hij kan zich verbranden." (cat. 6)\
+  > **Kind 2:** "Mijn ou... Mijn ouders zijn bang. Niet hijzelf." (cat. 6)
+  >
+  > _// Hier vindt een abrupte transitie plaats van waarom Thijs zich bang zou kunnen voelen, naar hoe Thijs zich zou kunnen voelen. Deze nieuwe verbale actie wordt in dit geval gecategoriseerd als stimulus._
+  > 
+  > **Kind 1:** "Ik zeg eerlijk. Hij voelt zich ook blij" (cat. 4) 
 
 
-# Definitions
+### Ambiguous
 
-- **Verbal action:** any sound produced by an individual with their voice that contains language.
+In some cases, ambiguous situations may arise making it unclear how to categorize a verbal action. The following rules are in place to handle these situations:
 
 - 
+
+
+## Mini Games
+
+TODO: add descriptions for the various mini-games. Include screenshots for each of the screens such that the annotators know what is on the screen. 
+
 
 ## Adjustments in the annotation scheme
 
@@ -95,3 +101,11 @@ A _response_ (cat. 6) is any _verbal action_ that is triggered by prior stimulus
    - ~We may **not** annotate these interactions at all.~ 
 
 
+## Labels in the project
+1. Question
+2. Command
+3. Remark about
+4. Remark to
+5. Unintended
+6. Response
+7. Ambiguous
