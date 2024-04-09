@@ -44,7 +44,7 @@ A **response** (category 6) is any verbal action that is a reaction to **another
   > **Bestuurder:** "Welke kant?" (cat.  6)\
   > **Verzamelaar:** "Naar rechts." (cat.  6)
   
-  The first line in the example is a command (category 2) directed to the driver to move in a certain direction. On the second line, the driver responds with a question (category 6) asking for clarification on the exact direction to move to. Finally, the collector responds with a remark about the shared task (category 6), providing clarification on the correct direction. Since both verbal actions on line 2 and 3 are responses to a prior stimulus or response, they must both be categorized as a response.
+  The first line in the example is a command (category 2) directed to the driver to move in a certain direction. On the second line, the driver _responds with a question_ (category 6) asking for clarification on the exact direction to move to. Finally, the collector _responds with a remark about the shared task_ (category 6), providing clarification on the correct direction. Since both verbal actions on line 2 and 3 are responses to a prior stimulus or response, they must both be categorized as a response.
 
 - **(Rule 3)** When a person follows up with multiple consecutive verbal actions within the context of a response to another person, each of these verbal actions are categorized as a response. For example:
 
