@@ -17,7 +17,7 @@ The present scheme only considers verbal actions for annotations. A **verbal act
 
 ### Stimulus 
 
-A **stimulus** is either **(a)** a verbal action that is meant to be responded to by others _verbally_ (i.e. through a verbal action), or  _in-game_ (i.e. through an action in the video game); or **(b)** a verbal action that others respond to _verbally_, even though this was not the speakers intention. A stimulus may also be used as a response during social interaction. These verbal actions (that are both stimulus and response) are annotated as a _response_ in the present annotation scheme (see [Section "Response"](#Response), _Rule 2_).
+A **stimulus** is either **(a)** a verbal action that is meant to be responded to by others _verbally_ (i.e. through a verbal action), or  _in-game_ (i.e. through an action in the video game); or **(b)** a verbal action that others respond to _verbally_, even though this was not the speakers intention. A stimulus may also be used as a response during social interaction. These verbal actions (that are both stimulus and response) are annotated as a _response_ in the present annotation scheme (see [Section "Response"](#Response), Rule 2).
 
 The stimulus category has been subdivided into multiple sub-categories relevant for our social context. _(Rule 1)_ A verbal action is considered a stimulus when it fits within any of the following sub-categories:
 
