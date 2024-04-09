@@ -93,7 +93,7 @@ This section provides a compact overview of the annotation rules. Please refer t
 
 - **(Rule 1)** A verbal action is considered a **stimulus** when it fits within any of its sub-categories: (cat. 1) question, (cat. 2) command, (cat. 3) remark about another in the group, (cat. 4) remark directed to at least one other person in the group, or (cat. 5) unintended stimuli (verbal actions that others respond to, although this may not have been intended).
 
-- **(Rule 2)** A verbal action is considered a **response** when this action is a reaction to **another person's _verbal action_** (stimulus or response)
+- **(Rule 2)** A verbal action is considered a **response** (cat. 6) when this action is a reaction to **another person's _verbal action_** (stimulus or response)
 
 - **(Rule 3)** A stimulus can be used as a response. In this case, the verbal action is **always** annotated as a response (cat. 6).
   
