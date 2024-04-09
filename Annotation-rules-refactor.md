@@ -108,12 +108,12 @@ This section provides a compact overview of the annotation rules. Please refer t
 - **(Rule 8)** When it is evident that a verbal action does **not** categorize as a stimulus or as a response, the verbal action is **not** categorized (i.e. left unlabeled).
 
 
-## Mini Games
+# Mini Games
 
 TODO: add descriptions for the various mini-games. Include screenshots for each of the screens such that the annotators know what is on the screen. 
 
 
-## Adjustments in the annotation scheme
+# Adjustments in the annotation scheme
 
 - Might need to clarify the definition of category 6, _"All verbal actions using language as a response to another person's verbal or non-verbal actions"_. Two reasons for this consideration are:
    - The data is often ambiguous on whether or not the participants respond to an in-game action.
@@ -126,7 +126,7 @@ TODO: add descriptions for the various mini-games. Include screenshots for each 
    - ~We may **not** annotate these interactions at all.~ 
 
 
-## Labels in the project
+# Labels in the project
 1. Question
 2. Command
 3. Remark about
