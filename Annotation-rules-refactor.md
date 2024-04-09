@@ -29,7 +29,7 @@ The stimulus category has been subdivided into multiple sub-categories relevant 
     
   - **(Cat. 4) Remark to:** a verbal action contains a _remark_ meant for at least one _other_ person in the group. Verbal actions about the shared task (i.e. the gameplay) are also considered as this sub-category.
     
-    Verbal actions that consist of reading out-loud what is on the screen are **not** considered this category (4). You may find all information on written texts in the [mini-game section]() for reference during annotating.
+    Verbal actions that consist of reading out-loud what is on the screen are **not** considered this category (4). You may find all information on written texts in the [mini-game section](#mini-games) for reference during annotating.
     
   - **(Cat. 5) Unintentional:** any verbal actions that _another_ person in the group responds to, even though this may not have been the speakers intention.
 
