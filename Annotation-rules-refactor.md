@@ -26,23 +26,43 @@ A stimulus may also be used as a response during social interaction. These verba
 The stimulus category has been subdivided into multiple sub-categories relevant for our social context. **(Rule 1)** A verbal action is considered a stimulus when it fits within any of the following sub-categories:
 
   - **(Category 1) Question:** a verbal action that contains a _question_ directed to at least one _other_ person in the group.
+
+    > **Example 1**\
+    > **Kind:** "Had jij echt je moeders telefoon gesloopt?" (cat. 1)
+    > 
+    > **Example 2**\
+    > **Kind:** "Ja! Waar moet ik heen?" (cat. 1)
   
-  - **(Category 2) Command:** a verbal action that contains a _command_ directed to at least one _other_ person in the group.
+  - **(Category 2) Command:** a verbal action that contains a _command_ directed to at least one _other_ person in the group. See two examples below.
+    
+    > **Example 1**\
+    > **Kind:** "Rechts. Ja rechts. Door. Door." (cat. 2) _// Het kind geeft instructies tijdens het rijden._
+    >
+    > **Example 2**\
+    > **Kind:** "Hij moet wel op die muur komen he." (cat. 2) _// Het kind zegt dat de ander het antwoord op het poster spel op de muur moet hangen._
 
   - **(Category 3) Remark about:** a verbal action contains a _remark about_ at least one _other_ person in the group.
-    
-  - **(Category 4) Remark to:** a verbal action contains a _remark_ meant for at least one _other_ person in the group. Verbal actions about the shared task (i.e. the gameplay) are also considered as this sub-category. See an example below:
 
-    > **kind 1:** "Die blauwe!" (cat. 4) _// Het kind geeft hier aan dat ze een blauwe graffiti tag ziet._\
-    > **Kind 1:** "Ik ga naar die blauwe!" (cat. 4) _// Vervolgens communiceert het kind naar de groep dat zij hiernaartoe navigeert._
+    > **Example 1**\
+    > **Kind:** "[...] is zo slecht in bestuurder he. Zo slecht." (cat. 3)
+    > 
+    > **Example 2**\
+    > **Kind:** "Goed zo, goed zo [...]. Zij krijgt het onder de voet. Niet onder de knie, maar onder de voet." (cat. 3)
+    
+    _Both examples are drawn from the same game session. In the first example, the child criticizes the driver's performance to the group. Later in the game (example 2), the child mentions that the driver is gradually improving in their role._
+    
+  - **(Category 4) Remark to:** a verbal action contains a _remark_ meant for at least one _other_ person in the group. Verbal actions about the shared task (i.e. the gameplay) are also considered as this sub-category. See an example below.
+
+    > **kind:** "Die blauwe!" (cat. 4) _// Het kind geeft hier aan dat ze een blauwe graffiti tag ziet._\
+    > **Kind:** "Ik ga naar die blauwe!" (cat. 4) _// Vervolgens communiceert het kind naar de groep dat zij hiernaartoe navigeert._
     
     **Category 4 continued:** Verbal actions that consist of reading out-loud what is on the screen are **not** considered this category. You may find all information on written texts in the [mini-game section](#mini-games) for reference during annotating. Consider the following example:
 
-    > **Kind 1:** "Toen ik mijn advies kreeg. Lachen."
+    > **Kind:** "Toen ik mijn advies kreeg. Lachen."
 
     _In this scenario, the child reads aloud the answer provided by another player during the poster mini-game. Simply reading aloud from the screen doesn't qualify as a stimulus, as it's merely a passive action without prompting or provocation._
     
-  - **(Category 5) Unintended:** any verbal actions that _another_ person in the group responds to, even though this may not have been the speakers intention. You may find an example below:
+  - **(Category 5) Unintended:** any verbal actions that _another_ person in the group responds to, even though this may not have been the speakers intention. You may find an example below.
 
     > **Kind 1:** "We wachten nog op [...] en [...], als beslisser kan je straks op verder klikken". (cat. 5)\
     > **Kind 2:** "[inaudible] ik ben heel slecht in typen oke, dus eehh..." (cat. 6)
@@ -54,7 +74,7 @@ The stimulus category has been subdivided into multiple sub-categories relevant 
 
 A **response** (category 6) is any verbal action that is a reaction to **another person's _verbal action_** (stimulus or response, not in-game or physical actions) **(Rule 2)**. Below are the rules regarding the annotation of responses:
 
-- **(Rule 3)** A stimulus can be used as a response. In this case, the verbal action is **always** annotated as a response (cat. 6). Consider the example below:
+- **(Rule 3)** A stimulus can be used as a response. In this case, the verbal action is **always** annotated as a response (cat. 6). Consider the example below.
   
   > **Verzamelaar:** "Ga die kant op!" (cat.  2)\
   > **Bestuurder:** "Welke kant?" (cat.  6)\
