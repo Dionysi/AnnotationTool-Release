@@ -40,7 +40,7 @@ The stimulus category has been subdivided into multiple sub-categories relevant 
 
     > **Kind 1:** "Toen ik mijn advies kreeg. Lachen."
 
-    _In this scenario, the child reads aloud the answer of another player for the poster mini-game. Since the child is just reading what is on the screen aloud, it is not considered a stimulus._
+    _In this scenario, the child reads aloud the answer of another player for the poster mini-game. Because the child is just reading what is on the screen aloud, it is not considered a stimulus._
     
   - **(Category 5) Unintended:** any verbal actions that _another_ person in the group responds to, even though this may not have been the speakers intention. You may find an example below:
 
