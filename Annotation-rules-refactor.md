@@ -72,10 +72,10 @@ The stimulus category has been subdivided into multiple sub-categories relevant 
         title Example of a Remark About Another Person (category 3) 
         actor Kind
         Note right of Kind: Het kind maakt een opmerking over de bestuurder.
-        Kind->>Others: "[...] is zo slecht in bestuurder he. Zo slecht."
+        Kind->>Groep: "[...] is zo slecht in bestuurder he. Zo slecht."
     
         Note right of Kind: Later in het spel maakt het kind weer een opmerking over de bestuurder.
-        Kind->>Others: "Goed zo, goed zo [...]. Zij krijgt het onder de voet. Niet onder de knie, maar onder de voet."
+        Kind->>Groep: "Goed zo, goed zo [...]. Zij krijgt het onder de voet. Niet onder de knie, maar onder de voet."
     ```
 
     _Both examples are drawn from the same game session. In the first example, the child criticizes the driver's performance to the group. Later in the game (example 2), the child mentions that the driver is gradually improving in their role._
@@ -95,9 +95,9 @@ The stimulus category has been subdivided into multiple sub-categories relevant 
         title Example of a Remark To Another Person (category 4) 
         actor Kind
         Note right of Kind:  Het kind geeft hier aan dat ze een blauwe graffiti tag ziet.
-        Kind->>Others: "Die blauwe!"
+        Kind->>Groep: "Die blauwe!"
         Note right of Kind: Vervolgens communiceert het kind naar de groep dat zij hiernaartoe navigeert.
-        Kind->>Others: "Ik ga naar die blauwe!"
+        Kind->>Groep: "Ik ga naar die blauwe!"
     ```
 
     <!-- > **kind:** "Die blauwe!" (cat. 4) _// Het kind geeft hier aan dat ze een blauwe graffiti tag ziet._\
