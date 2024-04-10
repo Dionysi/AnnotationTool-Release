@@ -31,7 +31,7 @@ The stimulus category has been subdivided into multiple sub-categories relevant 
 
     ```mermaid
     sequenceDiagram
-        title Example of a Question (Category 1)
+        title Voorbeeld van een vraag (categorie 1)
         actor Kind 1
         actor Kind 2
         Kind 1->>Kind 2: "Had jij echt je moeders telefoon gesloopt?"
@@ -49,7 +49,7 @@ The stimulus category has been subdivided into multiple sub-categories relevant 
 
     ```mermaid
     sequenceDiagram
-        title Example of a Command (category 2) 
+        title Voorbeeld van een commando (categorie 2)
         actor Kind 1
         actor Kind 2
         Kind 1->>Kind 2: "Hij moet wel op die muur komen he."
@@ -69,7 +69,7 @@ The stimulus category has been subdivided into multiple sub-categories relevant 
 
     ```mermaid
     sequenceDiagram
-        title Example of a Remark About Another Person (category 3) 
+        title Voorbeelden van een opmerking over een ander (categorie 3)
         actor Kind
         Note right of Kind: Het kind maakt een opmerking over de bestuurder.
         Kind->>Groep: "[...] is zo slecht in bestuurder he. Zo slecht."
@@ -92,7 +92,7 @@ The stimulus category has been subdivided into multiple sub-categories relevant 
     
     ```mermaid
     sequenceDiagram
-        title Example of a Remark To Another Person (category 4) 
+        title Voorbeelden van opmerkingen aan een ander (cateogrie 4). 
         actor Kind
         Note right of Kind:  Het kind geeft hier aan dat ze een blauwe graffiti tag ziet.
         Kind->>Groep: "Die blauwe!"
@@ -107,7 +107,7 @@ The stimulus category has been subdivided into multiple sub-categories relevant 
 
     ```mermaid
     sequenceDiagram
-        title Example of a Child Reading Aloud
+        title Voorbeeld van voorlezen.
         actor Kind
         Kind->Kind: "Toen ik mijn advies kreeg. Lachen."
     ```
@@ -122,7 +122,7 @@ The stimulus category has been subdivided into multiple sub-categories relevant 
 
     ```mermaid
     sequenceDiagram
-        title Example of a Command (category 2) 
+        title Voorbeeld van niet intentionele stimulus (categorie 5).
         actor Kind 1
         actor Kind 2
         Kind 1->>Kind 1: "We wachten nog op [...] en [...], als beslisser kan je straks op verder klikken."
@@ -141,24 +141,73 @@ The stimulus category has been subdivided into multiple sub-categories relevant 
 A **response** (category 6) is any verbal action that is a reaction to **another person's _verbal action_** (stimulus or response, not in-game or physical actions) **(Rule 2)**. Below are the rules regarding the annotation of responses:
 
 - **(Rule 3)** A stimulus can be used as a response. In this case, the verbal action is **always** annotated as a response (cat. 6). Consider the example below.
-  
+
+    ```mermaid
+    sequenceDiagram
+        title Voorbeeld van regel 3 (categorie 6).
+        actor Verzamelaar
+        actor Bestuurder
+        Verzamelaar->>Bestuurder: "Ga die kant op!" (categorie 2)
+        Bestuurder->>Verzamelaar: "Welke kant?" (categorie 6)
+        Verzamelaar->>Bestuurder: "Naar rechts." (categorie 6)
+    ```
+    
+  _In the example, the first line involves a command (category 2) instructing the driver to move in a specific direction. The second line shows the driver responding with a question (category 6), seeking clarification on the precise direction to take. Then, the collector responds with a remark about the shared task (category 6), offering clarity on the correct direction. Because both verbal actions in lines 2 and 3 are reactions to prior stimuli or responses, they are both categorized as responses._
+
+ <!--
   > **Verzamelaar:** "Ga die kant op!" (cat.  2)\
   > **Bestuurder:** "Welke kant?" (cat.  6)\
   > **Verzamelaar:** "Naar rechts." (cat.  6)
-  
-  _In the example, the first line involves a command (category 2) instructing the driver to move in a specific direction. The second line shows the driver responding with a question (category 6), seeking clarification on the precise direction to take. Then, the collector responds with a remark about the shared task (category 6), offering clarity on the correct direction. Because both verbal actions in lines 2 and 3 are reactions to prior stimuli or responses, they are both categorized as responses._
+  -->
 
 - **(Rule 4)** When a person follows up with multiple consecutive verbal actions within the context of a response to another person, each of these verbal actions are categorized as a response. For example:
 
+    ```mermaid
+    sequenceDiagram
+        title Voorbeeld van regel 4 (categorie 6).
+        actor Kind 1
+        actor Kind 2
+        Kind 1->>Kind 2: "Hoe denk jij dat Thijs zich kan voelen?" (categorie 1)
+        Kind 2->>Kind 1: "Hmm, ik denk misschien wel boos..." (categorie 6)
+        Note over Kind 1, Kind 2: Korte pauze waarin kind 2 nadenkt.
+        Kind 2->>Kind 1: "En ook wel jaloers!" (categorie 6)
+    ```
+
+  _In the scenario, the second child initially responds to the initial question. Then, after a few seconds of contemplation, a second answer is given to the same question. Since both verbal actions are reactions to the initial stimulus, they are categorized as responses (category 6)._
+
+  <!--
   > **Kind 1:** "Hoe denk jij dat Thijs zich kan voelen?" (cat. 1)\
   > **Kind 2:** "Hmm, ik denk misschien wel boos..." (cat. 6)\
   > \*silence\*\
   > **Kind 2:** "En ook wel jaloers!" (cat. 6)
-
-  _In the scenario, the second child initially responds to the initial question. Then, after a few seconds of contemplation, a second answer is given to the same question. Since both verbal actions are reactions to the initial stimulus, they are categorized as responses (category 6)._
+  -->
 
 - **(Rule 5)** During a conversation the topic of the conversation may transition smoothly. In this case, consecutive verbal actions are continued to be categorized as responses. When a verbal action introduces an abrupt change of topic, the action is **not** categorized as a response. Consider this example during the scenario mini-game for the emotion 'jealousy'. 
 
+    ```mermaid
+    sequenceDiagram
+        title Voorbeeld van regel 5 (categorie 6).
+        actor Kind 1
+        actor Kind 2
+        Kind 1->>Kind 2: "Hoe zou Thijs zich kunnen voelen?" (categorie 1)
+        Kind 2->>Kind 1: "Jaloers." (categorie 6)
+        Kind 1->Kind 2: [...]
+        Kind 2->>Kind 1: "En eeh... Boos." (categorie 6)
+        Kind 1->>Kind 2: "Boos, maar ook bang." (categorie 6)
+        Kind 1->Kind 2: [...]
+        Kind 1->>Kind 2: "Hij is bang." (categorie 6)
+        Note over Kind 1, Kind 2: Hier vindt een smooth transitie plaats van hoe<br/>Thijs zich zou kunnen voelen naar waarom Thijs<br/>bang zou zijn. Opeenvolgende verbale acties op<br/>hetzelfde onderwerp gaan door als response.
+        Kind 2->>Kind 1: "Hoezo is die bang?" (categorie 6)
+        par Kind 1 aan Kind 2
+            Kind 1->>Kind 2: "Hij kan zich, wacht even hoor [...] Hij kan zich verbranden." (categorie 6)
+        and Kind 2 aan Kind 1
+            Kind 2->>Kind 1: "Mijn ou... Mijn ouders zijn bang. Niet hijzelf." (categorie 6)
+        end
+        Note over Kind 1, Kind 2: Hier vindt een abrupte transitie plaats van waarom<br/>Thijs zich bang zou kunnen voelen, naar hoe<br/>Thijs zich zou kunnen voelen. Deze nieuwe verbale<br/>actie wordt in dit geval gecategoriseerd als stimulus.
+        Kind 1->>Kind 2: "Ik zeg eerlijk. Hij voelt zich ook blij" (categorie 4) 
+    ```
+
+  <!--
   > **Kind 1:** "Hoe zou Thijs zich kunnen voelen?" (cat. 1)\
   > **Kind 2:** "Jaloers." (cat. 6)\
   > [...]\
@@ -176,7 +225,7 @@ A **response** (category 6) is any verbal action that is a reaction to **another
   > _// Hier vindt een abrupte transitie plaats van waarom Thijs zich bang zou kunnen voelen, naar hoe Thijs zich zou kunnen voelen. Deze nieuwe verbale actie wordt in dit geval gecategoriseerd als stimulus._
   > 
   > **Kind 1:** "Ik zeg eerlijk. Hij voelt zich ook blij" (cat. 4) 
-
+  -->
 
 ### Ambiguous
 
