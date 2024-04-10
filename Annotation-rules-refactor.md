@@ -120,11 +120,20 @@ The stimulus category has been subdivided into multiple sub-categories relevant 
 
   - **(Category 5) Unintended:** any verbal actions that _another_ person in the group responds to, even though this may not have been the speakers intention. You may find an example below.
 
-    > **Kind 1:** "We wachten nog op [...] en [...], als beslisser kan je straks op verder klikken". (cat. 5)\
-    > **Kind 2:** "[inaudible] ik ben heel slecht in typen oke, dus eehh..." (cat. 6)
+    ```mermaid
+    sequenceDiagram
+        title Example of a Command (category 2) 
+        actor Kind 1
+        actor Kind 2
+        Kind 1->>Kind 1: "We wachten nog op [...] en [...], als beslisser kan je straks op verder klikken."
+        Kind 2->>Kind 1: "[onverstaanbaar] ik ben heel slecht in typen oke, dus eehh..."
+    ```
     
     _In this scenario, the first child reads aloud the text displayed on the screen. Just reading aloud wouldn't typically be seen as a stimulus according to category 4. However, because the second child responds to this by apologizing for being a slow typer and asking for patience from the others, the original action of reading aloud becomes an unintentional stimulus._
 
+  <!--  > **Kind 1:** "We wachten nog op [...] en [...], als beslisser kan je straks op verder klikken." (cat. 5)\
+    > **Kind 2:** "[inaudible] ik ben heel slecht in typen oke, dus eehh..." (cat. 6) -->
+    
 ---
 
 ### Response
