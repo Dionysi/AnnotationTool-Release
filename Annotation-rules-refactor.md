@@ -25,43 +25,99 @@ A stimulus may also be used as a response during social interaction. These verba
 
 The stimulus category has been subdivided into multiple sub-categories relevant for our social context. **(Rule 1)** A verbal action is considered a stimulus when it fits within any of the following sub-categories:
 
+---
+
   - **(Category 1) Question:** a verbal action that contains a _question_ directed to at least one _other_ person in the group.
 
-    > **Example 1**\
+    ```mermaid
+    sequenceDiagram
+        title Example of a Question (Category 1)
+        actor Kind 1
+        actor Kind 2
+        Kind 1->>Kind 2: "Had jij echt je moeders telefoon gesloopt?"
+    ```
+    
+ <!--   > **Example 1**\
     > **Kind:** "Had jij echt je moeders telefoon gesloopt?" (cat. 1)
     > 
     > **Example 2**\
-    > **Kind:** "Ja! Waar moet ik heen?" (cat. 1)
+    > **Kind:** "Ja! Waar moet ik heen?" (cat. 1) -->
+
+---
   
   - **(Category 2) Command:** a verbal action that contains a _command_ directed to at least one _other_ person in the group. See two examples below.
-    
-    > **Example 1**\
+
+    ```mermaid
+    sequenceDiagram
+        title Example of a Command (category 2) 
+        actor Kind 1
+        actor Kind 2
+        Kind 1->>Kind 2: "Hij moet wel op die muur komen he."
+    ```
+
+    _The example illustrates a child commanding others to add their answers to the poster mini-game onto the city so that everyone can read them._
+
+     <!--       > **Example 1**\
     > **Kind:** "Rechts. Ja rechts. Door. Door." (cat. 2) _// Het kind geeft instructies tijdens het rijden._
     >
     > **Example 2**\
-    > **Kind:** "Hij moet wel op die muur komen he." (cat. 2) _// Het kind zegt dat de ander het antwoord op het poster spel op de muur moet hangen._
+    > **Kind:** "Hij moet wel op die muur komen he." (cat. 2) _// Het kind zegt dat de ander het antwoord op het poster spel op de muur moet hangen._ -->
+
+---
 
   - **(Category 3) Remark about:** a verbal action contains a _remark about_ at least one _other_ person in the group.
 
-    > **Example 1**\
+    ```mermaid
+    sequenceDiagram
+        title Example of a Remark About Another Person (category 3) 
+        actor Kind
+        Note right of Kind: Het kind maakt een opmerking over de bestuurder.
+        Kind->>Others: "[...] is zo slecht in bestuurder he. Zo slecht."
+    
+        Note right of Kind: Laterin het spel maakt het kind weer een opmerking over de bestuurder.
+        Kind->>Others: "Goed zo, goed zo [...]. Zij krijgt het onder de voet. Niet onder de knie, maar onder de voet."
+    ```
+
+    _Both examples are drawn from the same game session. In the first example, the child criticizes the driver's performance to the group. Later in the game (example 2), the child mentions that the driver is gradually improving in their role._
+    
+<!-- > **Example 1**\
     > **Kind:** "[...] is zo slecht in bestuurder he. Zo slecht." (cat. 3)
     > 
     > **Example 2**\
-    > **Kind:** "Goed zo, goed zo [...]. Zij krijgt het onder de voet. Niet onder de knie, maar onder de voet." (cat. 3)
-    
-    _Both examples are drawn from the same game session. In the first example, the child criticizes the driver's performance to the group. Later in the game (example 2), the child mentions that the driver is gradually improving in their role._
-    
-  - **(Category 4) Remark to:** a verbal action contains a _remark_ meant for at least one _other_ person in the group. Verbal actions about the shared task (i.e. the gameplay) are also considered as this sub-category. See an example below.
+    > **Kind:** "Goed zo, goed zo [...]. Zij krijgt het onder de voet. Niet onder de knie, maar onder de voet." (cat. 3) -->
 
-    > **kind:** "Die blauwe!" (cat. 4) _// Het kind geeft hier aan dat ze een blauwe graffiti tag ziet._\
-    > **Kind:** "Ik ga naar die blauwe!" (cat. 4) _// Vervolgens communiceert het kind naar de groep dat zij hiernaartoe navigeert._
+---
+  
+  - **(Category 4) Remark to:** a verbal action contains a _remark_ meant for at least one _other_ person in the group. Verbal actions about the shared task (i.e. the gameplay) are also considered as this sub-category. See an example below.
+    
+    ```mermaid
+    sequenceDiagram
+        title Example of a Remark To Another Person (category 4) 
+        actor Kind
+        Note right of Kind:  Het kind geeft hier aan dat ze een blauwe graffiti tag ziet.
+        Kind->>Others: "Die blauwe!"
+        Note right of Kind: Vervolgens communiceert het kind naar de groep dat zij hiernaartoe navigeert.
+        Kind->>Others: "Ik ga naar die blauwe!"
+    ```
+
+    <!-- > **kind:** "Die blauwe!" (cat. 4) _// Het kind geeft hier aan dat ze een blauwe graffiti tag ziet._\
+    > **Kind:** "Ik ga naar die blauwe!" (cat. 4) _// Vervolgens communiceert het kind naar de groep dat zij hiernaartoe navigeert._ -->
     
     **Category 4 continued:** Verbal actions that consist of reading out-loud what is on the screen are **not** considered this category. You may find all information on written texts in the [mini-game section](#mini-games) for reference during annotating. Consider the following example:
 
-    > **Kind:** "Toen ik mijn advies kreeg. Lachen."
+    ```mermaid
+    sequenceDiagram
+        title Example of a Child Reading Aloud
+        actor Kind
+        Kind->Kind: "Toen ik mijn advies kreeg. Lachen."
+    ```
 
     _In this scenario, the child reads aloud the answer provided by another player during the poster mini-game. Simply reading aloud from the screen doesn't qualify as a stimulus, as it's merely a passive action without prompting or provocation._
-    
+
+   <!-- > **Kind:** "Toen ik mijn advies kreeg. Lachen." -->
+
+---
+
   - **(Category 5) Unintended:** any verbal actions that _another_ person in the group responds to, even though this may not have been the speakers intention. You may find an example below.
 
     > **Kind 1:** "We wachten nog op [...] en [...], als beslisser kan je straks op verder klikken". (cat. 5)\
@@ -69,6 +125,7 @@ The stimulus category has been subdivided into multiple sub-categories relevant 
     
     _In this scenario, the first child reads aloud the text displayed on the screen. Just reading aloud wouldn't typically be seen as a stimulus according to category 4. However, because the second child responds to this by apologizing for being a slow typer and asking for patience from the others, the original action of reading aloud becomes an unintentional stimulus._
 
+---
 
 ### Response
 
@@ -144,7 +201,32 @@ This section provides a compact overview of the annotation rules. Please refer t
 - **(Rule 8)** When it is evident that a verbal action does **not** categorize as a stimulus or as a response, the verbal action is **not** categorized (i.e. left unlabeled).
 
 
-# Mini Games
+# Gameplay
+
+
+
+The gameplay of Ruby's Mission can be divided into two main phases: navigating through the game world to collect graffiti tags and playing in one of three mini-games. These two phases alternate one another until all mini-games have been completed.
+
+```mermaid
+---
+title: Ruby's Mission Gameplay Phases
+---
+stateDiagram-v2
+    Intro --> Driving
+
+    Driving --> Poster
+    Driving --> Scenario
+    Driving --> Graffiti
+    Poster --> Driving
+    Scenario --> Driving
+    Graffiti --> Driving
+    Poster --> Outro
+    Scenario --> Outro
+    Graffiti --> Outro
+```
+
+
+## Mini Games
 
 TODO: add descriptions for the various mini-games. Include screenshots for each of the screens such that the annotators know what is on the screen. 
 
