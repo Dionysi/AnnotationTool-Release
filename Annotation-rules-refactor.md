@@ -74,7 +74,7 @@ The stimulus category has been subdivided into multiple sub-categories relevant 
         Note right of Kind: Het kind maakt een opmerking over de bestuurder.
         Kind->>Others: "[...] is zo slecht in bestuurder he. Zo slecht."
     
-        Note right of Kind: Laterin het spel maakt het kind weer een opmerking over de bestuurder.
+        Note right of Kind: Later in het spel maakt het kind weer een opmerking over de bestuurder.
         Kind->>Others: "Goed zo, goed zo [...]. Zij krijgt het onder de voet. Niet onder de knie, maar onder de voet."
     ```
 
