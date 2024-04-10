@@ -196,14 +196,14 @@ A **response** (category 6) is any verbal action that is a reaction to **another
         Kind 1->>Kind 2: "Boos, maar ook bang." (categorie 6)
         Kind 1->Kind 2: [...]
         Kind 1->>Kind 2: "Hij is bang." (categorie 6)
-        Note over Kind 1, Kind 2: Hier vindt een smooth transitie plaats van hoe<br/>Thijs zich zou kunnen voelen naar waarom Thijs<br/>bang zou zijn. Opeenvolgende verbale acties op<br/>hetzelfde onderwerp gaan door als response.
+        Note over Kind 1, Kind 2: Hier vindt een smooth transitie plaats van 'hoe<br/>Thijs zich zou kunnen voelen' naar 'waarom Thijs<br/>bang zou zijn'. Opeenvolgende verbale acties op<br/>hetzelfde onderwerp gaan door als response.
         Kind 2->>Kind 1: "Hoezo is die bang?" (categorie 6)
         par Kind 1 aan Kind 2
             Kind 1->>Kind 2: "Hij kan zich, wacht even hoor [...] Hij kan zich verbranden." (categorie 6)
         and Kind 2 aan Kind 1
             Kind 2->>Kind 1: "Mijn ou... Mijn ouders zijn bang. Niet hijzelf." (categorie 6)
         end
-        Note over Kind 1, Kind 2: Hier vindt een abrupte transitie plaats van waarom<br/>Thijs zich bang zou kunnen voelen, naar hoe<br/>Thijs zich zou kunnen voelen. Deze nieuwe verbale<br/>actie wordt in dit geval gecategoriseerd als stimulus.
+        Note over Kind 1, Kind 2: Hier vindt een abrupte transitie plaats van 'waarom<br/>Thijs zich bang zou kunnen voelen', naar 'hoe Thijs<br/>zich zou kunnen voelen'. Deze nieuwe verbale actie wordt<br/>in dit geval gecategoriseerd als stimulus.
         Kind 1->>Kind 2: "Ik zeg eerlijk. Hij voelt zich ook blij" (categorie 4) 
     ```
 
@@ -216,13 +216,13 @@ A **response** (category 6) is any verbal action that is a reaction to **another
   > [...]\
   > **Kind 1:** "Hij is bang." (cat. 6)
   > 
-  > _// Hier vindt een smooth transitie plaats van hoe Thijs zich zou kunnen voelen naar waarom Thijs bang zou zijn. Opeenvolgende verbale acties op hetzelfde onderwerp gaan door als response._
+  > _// Hier vindt een smooth transitie plaats van 'hoe Thijs zich zou kunnen voelen' naar 'waarom Thijs bang zou zijn'. Opeenvolgende verbale acties op hetzelfde onderwerp gaan door als response._
   > 
   > **Kind 2:** "Hoezo is die bang?" (cat. 6)\
   > **Kind 1:** "Hij kan zich, wacht even hoor [...] Hij kan zich verbranden." (cat. 6)\
   > **Kind 2:** "Mijn ou... Mijn ouders zijn bang. Niet hijzelf." (cat. 6)
   >
-  > _// Hier vindt een abrupte transitie plaats van waarom Thijs zich bang zou kunnen voelen, naar hoe Thijs zich zou kunnen voelen. Deze nieuwe verbale actie wordt in dit geval gecategoriseerd als stimulus._
+  > _// Hier vindt een abrupte transitie plaats van 'waarom Thijs zich bang zou kunnen voelen', naar 'hoe Thijs zich zou kunnen voelen'. Deze nieuwe verbale actie wordt in dit geval gecategoriseerd als stimulus._
   > 
   > **Kind 1:** "Ik zeg eerlijk. Hij voelt zich ook blij" (cat. 4) 
   -->
