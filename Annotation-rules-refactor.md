@@ -261,13 +261,11 @@ This section provides a compact overview of the annotation rules. Please refer t
 
 # Gameplay
 
-
-
-The gameplay of Ruby's Mission can be divided into two main phases: navigating through the game world to collect graffiti tags and playing in one of three mini-games. These two phases alternate one another until all mini-games have been completed.
+The gameplay of Ruby's Mission can be divided into two main phases: driving through the game world to collect graffiti tags and playing in one of three mini-games. These two phases alternate one another until all mini-games have been completed. Refer to the Diagram 1 (below) for a graphical overview of the phase transitions.
 
 ```mermaid
 ---
-title: Ruby's Mission Gameplay Phases
+title: Diagram 1 - Ruby's Mission Gameplay Phases
 ---
 stateDiagram-v2
     Intro --> Driving
@@ -282,6 +280,14 @@ stateDiagram-v2
     Scenario --> Outro
     Graffiti --> Outro
 ```
+
+While navigating through the city (indicated as "Driving" in Diagram 1), the players have two main goals. One goal is to collect the various graffiti tags scattered throughout the game world to unlock the graffiti mini-games. The second goal is to navigate to the points of interest to play the scenario- and poster mini-games.
+
+Each player is assigned a role at the start of the game. One player is assigned the **driver** role. This player is responsible for driving Ruby (and the group) through the city during the "driving" phase. By clicking in the gameworld or using the 'WASD'-keys, the player can move Ruby through the game world. The other players automatically follow the same path.
+
+Another player is assigned the **decider** role. This player is responsible for communicating the group-answers during the mini-games to Ruby (i.e. the game). See the [mini-game section](#mini-games) for more information on the specific decisions to be made. 
+
+The remaining one or two players (depending on whether the group consists of three our four players) are assigned the **collector** role. Collectors are responsible for collecting the graffiti tags scattered throughout the city during the driving phase. They can do so by clicking on the tags with their cursors. 
 
 
 ## Mini Games
