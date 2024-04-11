@@ -264,15 +264,10 @@ direction LR
     Cooperative --> Outro
 ```
 
-The **introduction phase** of the poster mini-game provides information about a specific emotion and depicting associated body language and facial expressions. This section of the poster mini-game is **not** highlighted in the annotation tool, as it does not require any actions from the players.
-
-Next, the **solo segment** of the poster mini-game is played. Players privately reflect on their own experiences related to the displayed emotion by sharing personal stories with Ruby through text-fields on the poster. They are specifically asked _"Wanneer voelde jij je [trots/schuldig/jaloers]?"_ and _"Wat heb je toen gedaan?"_. These questions are answered through two text input fields on the screen. The other players cannot (yet) read what is written here.
-
-Once a player filed in their answer in the text fields, they can decide whether they would like to share their answer with the others. If they decide to share their answer with the others, a post-it appears next to the poster in the game world. When the other players transition to the cooperative phase, they will be able to read the text on the post-it. A player may also decide to not share their answer with the others. In this case nothing happends. Regardless of this decision, the player transitions to the cooperative phase. 
-
-The solo-section **is highlighted** in the annotation tool as the first part of the poster mini-game highlight. 
-
-After the solo segment, the players transition into the **cooperative part** of the poster mini-game. 
+| Introduction | Solo part      | Cooperative part |
+| :---         | :---           | :---        |
+| Provides information about a specific emotion and depicting associated body language and facial expressions. This section of the poster mini-game is **not** highlighted in the annotation tool, as it does not require any actions from the players.  | Players privately reflect on their own experiences related to the displayed emotion by sharing personal stories with Ruby through text-fields on the poster. Players may decide whether the others can see their answers.  | Players can read the answers of others who chose to share their answers with the group. The annotation tool marks the moment where **the second** player submitted their answer (regardless of the choice to share) |
+| ![](images/poster-intro.png) | ![](images/poster-solo.png) | ![](images/poster-coop.png) |
 
 
 # Adjustments in the annotation scheme
