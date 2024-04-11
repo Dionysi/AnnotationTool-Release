@@ -214,6 +214,7 @@ The gameplay of Ruby's Mission can be divided into two main phases: driving thro
 title: Diagram 1 - Ruby's Mission Gameplay Phases
 ---
 stateDiagram-v2
+direction LR
     Intro --> Driving
 
     Driving --> Poster
@@ -238,7 +239,40 @@ The remaining player or players (depending on whether there are three or four pl
 
 ## Mini Games
 
-TODO: add descriptions for the various mini-games. Include screenshots for each of the screens such that the annotators know what is on the screen. 
+Ruby's Mission includes three mini-games designed to stimulate socio-emotional skill training as described in our first paper, ["Ruby's Mission: Towards an Applied Gaming Intervention for reducing Loneliness of Children with Chronic Illness"](https://doi.org/10.1145/3472538.3472553). Each mini-game is designed to motivate the player to reflect on their past experiences with certain emotions, and to share and discuss about these experiences. It is through this reflection and sharing that they improve their socio-emotional skills. 
+
+Each mini-game follows a consistent gameplay structure, comprising the following components (not necessarily presented in the listed order):
+
+- **Intro:** Players receive information about the mini-game, such as its rules or details about a specific emotion.
+- **Solo part:** Players independently perform actions without being required to interact or exchanging information with their team.
+- **Cooperative part:** Players collaborate and share information to make group decisions, such as identifying an in-game character's emotions or selecting suitable texts for a specific emotion.
+- **Outro:** Players receive feedback on their actions, and the game transitions into the driving phase.
+
+
+### Poster Game
+
+Three poster mini-games are played during a game session of Ruby's Mission, each centered around one of the following emotions: _pride_ (trots), _guilt_ (schuld), or _jealousy_ (jaloezie). 
+
+```mermaid
+---
+title: Diagram 2 - Poster Game Phases
+---
+stateDiagram-v2
+direction LR
+    Intro --> Solo
+    Solo --> Cooperative
+    Cooperative --> Outro
+```
+
+The **introduction phase** of the poster mini-game provides information about a specific emotion and depicting associated body language and facial expressions. This section of the poster mini-game is **not** highlighted in the annotation tool, as it does not require any actions from the players.
+
+Next, the **solo segment** of the poster mini-game is played. Players privately reflect on their own experiences related to the displayed emotion by sharing personal stories with Ruby through text-fields on the poster. They are specifically asked _"Wanneer voelde jij je [trots/schuldig/jaloers]?"_ and _"Wat heb je toen gedaan?"_. These questions are answered through two text input fields on the screen. The other players cannot (yet) read what is written here.
+
+Once a player filed in their answer in the text fields, they can decide whether they would like to share their answer with the others. If they decide to share their answer with the others, a post-it appears next to the poster in the game world. When the other players transition to the cooperative phase, they will be able to read the text on the post-it. A player may also decide to not share their answer with the others. In this case nothing happends. Regardless of this decision, the player transitions to the cooperative phase. 
+
+The solo-section **is highlighted** in the annotation tool as the first part of the poster mini-game highlight. 
+
+After the solo segment, the players transition into the **cooperative part** of the poster mini-game. 
 
 
 # Adjustments in the annotation scheme
