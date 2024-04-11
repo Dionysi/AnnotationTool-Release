@@ -331,7 +331,7 @@ direction LR
 
 | Solo part      | Cooperative part |
 | :---           | :---        |
-| | |
+| Players individually choose three out of five graffiti tags that they believe best correspond to the emotion associated with the current level. This is the first part in the graffiti game highlight in the annotation tool. | Players view each other's selections and collaboratively decide which tags to include in Ruby's memory. They discuss and compare their choices, aiming to reach a consensus on the final selection. The **decider** can communicate the group's answer to Ruby. This is the second part of the mini-game highlight in the annotation tool. |
 | ![](images/graffiti-solo.png) | ![](images/graffiti-coop.png) |
 
 
