@@ -72,19 +72,19 @@ The stimulus category has been subdivided into multiple sub-categories relevant 
         title Voorbeelden van een opmerking over een ander (categorie 3)
         actor Kind
         Note right of Kind: Het kind maakt een opmerking over de bestuurder.
-        Kind->>Groep: "[...] is zo slecht in bestuurder he. Zo slecht."
+        Kind->>Groep: "[naam] is zo slecht in bestuurder he. Zo slecht."
     
         Note right of Kind: Later in het spel maakt het kind weer een opmerking over de bestuurder.
-        Kind->>Groep: "Goed zo, goed zo [...]. Zij krijgt het onder de voet. Niet onder de knie, maar onder de voet."
+        Kind->>Groep: "Goed zo, goed zo [naam]. Zij krijgt het onder de voet. Niet onder de knie, maar onder de voet."
     ```
 
     _Both examples are drawn from the same game session. In the first example, the child criticizes the driver's performance to the group. Later in the game (example 2), the child mentions that the driver is gradually improving in their role._
     
 <!-- > **Example 1**\
-    > **Kind:** "[...] is zo slecht in bestuurder he. Zo slecht." (cat. 3)
+    > **Kind:** "[naam] is zo slecht in bestuurder he. Zo slecht." (cat. 3)
     > 
     > **Example 2**\
-    > **Kind:** "Goed zo, goed zo [...]. Zij krijgt het onder de voet. Niet onder de knie, maar onder de voet." (cat. 3) -->
+    > **Kind:** "Goed zo, goed zo [naam]. Zij krijgt het onder de voet. Niet onder de knie, maar onder de voet." (cat. 3) -->
 
 ---
   
