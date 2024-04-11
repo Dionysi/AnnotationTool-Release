@@ -259,15 +259,22 @@ title: Diagram 2 - Poster Game Phases
 ---
 stateDiagram-v2
 direction LR
+    [*] --> Intro
     Intro --> Solo
     Solo --> Cooperative
-    Cooperative --> Outro
+    Cooperative --> [*]
 ```
 
 | Introduction | Solo part      | Cooperative part |
 | :---         | :---           | :---        |
 | Provides information about a specific emotion and depicting associated body language and facial expressions. This section of the poster mini-game is **not** highlighted in the annotation tool, as it does not require any actions from the players.  | Players privately reflect on their own experiences related to the displayed emotion by sharing personal stories with Ruby through text-fields on the poster. Players may decide whether the others can see their answers.  | Players can read the answers of others who chose to share their answers with the group. The annotation tool marks the moment where **the second** player submitted their answer (regardless of the choice to share) |
 | ![](images/poster-intro.png) | ![](images/poster-solo.png) | ![](images/poster-coop.png) |
+
+The following posters where included in the playtest.
+
+| Jaloers |   Schuldig    | Trots |
+|    :---: |   :---:    | :---: |
+| ![](images/Poster_Jaloezie.png) | ![](images/Poster_Schuld.png) | ![](images/Poster_Trots.png) |
 
 
 # Adjustments in the annotation scheme
