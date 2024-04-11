@@ -246,7 +246,7 @@ Each mini-game follows a consistent gameplay structure, comprising the following
 - **Intro:** Players receive information about the mini-game, such as its rules or details about a specific emotion.
 - **Solo part:** Players independently perform actions without being required to interact or exchanging information with their team.
 - **Cooperative part:** Players collaborate and share information to make group decisions, such as identifying an in-game character's emotions or selecting suitable texts for a specific emotion.
-- **Outro:** Players receive feedback on their actions, and the game transitions into the driving phase.
+- **Feedback:** Players receive feedback on their actions.
 
 
 ### Poster Game
@@ -283,7 +283,7 @@ Two scenario mini-games were included in the game session. One is centered aroun
 
 ```mermaid
 ---
-title: Diagram 2 - Poster Game Phases
+title: Diagram 3 - Scenario Game Phases
 ---
 stateDiagram-v2
 direction LR
@@ -312,6 +312,28 @@ All possible answers for the scenario mini-games are.
 |   2   | Jaloers | Wat stom dat Thijs wel altijd alles mag. |
 |   3   | Jaloers | Jouw ouders zijn ook echt streng. |
 |   4   | Jaloers | Wat leuk dat je aan het buitenspelen was. |
+
+
+### Graffiti Game
+
+Three graffiti mini-games were played during a game session of Ruby's Mission. Similar to the poster mini-games, these are centered around the emotions _pride_ (trots), _guilt_ (schuld), or _jealousy_ (jaloezie).
+
+```mermaid
+---
+title: Diagram 4 - Graffiti Game Phases
+---
+stateDiagram-v2
+direction LR
+    [*] --> Solo
+    Solo --> Cooperative
+    Cooperative --> [*]
+```
+
+| Solo part      | Cooperative part |
+| :---           | :---        |
+| | |
+| ![](images/graffiti-solo.png) | ![](images/graffiti-coop.png) |
+
 
 # Adjustments in the annotation scheme
 
