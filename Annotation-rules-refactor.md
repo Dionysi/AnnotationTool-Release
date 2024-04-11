@@ -251,7 +251,7 @@ Each mini-game follows a consistent gameplay structure, comprising the following
 
 ### Poster Game
 
-Three poster mini-games are played during a game session of Ruby's Mission, each centered around one of the following emotions: _pride_ (trots), _guilt_ (schuld), or _jealousy_ (jaloezie). 
+Three poster mini-games were played during a game session of Ruby's Mission, each centered around one of the following emotions: _pride_ (trots), _guilt_ (schuld), or _jealousy_ (jaloezie). 
 
 ```mermaid
 ---
@@ -267,7 +267,7 @@ direction LR
 
 | Introduction | Solo part      | Cooperative part |
 | :---         | :---           | :---        |
-| Provides information about a specific emotion and depicting associated body language and facial expressions. This section of the poster mini-game is **not** highlighted in the annotation tool, as it does not require any actions from the players.  | Players privately reflect on their own experiences related to the displayed emotion by sharing personal stories with Ruby through text-fields on the poster. Players may decide whether the others can see their answers.  | Players can read the answers of others who chose to share their answers with the group. The annotation tool marks the moment where **the second** player submitted their answer (regardless of the choice to share) |
+| Provides information about a specific emotion and depicting associated body language and facial expressions. This section of the poster mini-game is **not** highlighted in the annotation tool, as it does not require any actions from the players.  | Players privately reflect on their own experiences related to the displayed emotion by sharing personal stories with Ruby through text-fields on the poster. Players may decide whether the others can see their answers.  | Players can read the answers of others who chose to share their answers with the group. They are asked to discuss their answers with each other. The **decider** can decide when to continue. The annotation tool marks the moment where **the second** player submitted their answer (regardless of the choice to share) as the start of the cooperative part. Only when two players are able to see each others answers, is there the possibility to start a discussion. |
 | ![](images/poster-intro.png) | ![](images/poster-solo.png) | ![](images/poster-coop.png) |
 
 The following posters where included in the playtest.
@@ -276,6 +276,42 @@ The following posters where included in the playtest.
 |    :---: |   :---:    | :---: |
 | ![](images/Poster_Jaloezie.png) | ![](images/Poster_Schuld.png) | ![](images/Poster_Trots.png) |
 
+
+### Scenario Game
+
+Two scenario mini-games were included in the game session. One is centered around the emotions _pride_ (trots) and _guilty_ (schuldg, the other is about jealousy (jaloers).  
+
+```mermaid
+---
+title: Diagram 2 - Poster Game Phases
+---
+stateDiagram-v2
+direction LR
+    [*] --> Intro
+    Intro --> Cooperative_A
+    Cooperative_A --> Feedback
+    Feedback --> Cooperative_B
+    Cooperative_B --> [*]
+```
+
+| Introduction | Cooperative (A) | Feedback | Cooperative B |
+| :---         | :---            | :---     | :---          |
+| A character tells Ruby a short story about something that happened to him or her. This part is **not** indicated in the annotation tool. | Players must collectively determine the emotions of the character based on the story. The **decider** can communicate the chosen emotion(s) to Ruby. This is the first section of the mini-game highlight in the tool. | The game shows how the character actually feels, revealing whether the chosen emotions where correct. This part is also included in the first section of the mini-game highlight in the tool. | Each player is presented with their own predetermined reaction on how to respond to Ruby. They must read their answers aloud, and then determine as a group which answer is the most appropriate. The **decider** can communicate this answer to Ruby. |
+| ![](images/scenario-intro.png) | ![](images/scenario-coop-1.png) | ![](images/scenario-info.png) | ![](images/scenario-coop-2.png) |
+
+All possible answers for the scenario mini-games are.
+
+| Option | Scenario | Answer |
+| :---  | :---     | :---   |
+|   1   | Trots & Schuldig | Wat leuk, maar ook wel vervelend voor Merel. |
+|   2   | Trots & Schuldig | Super cool dat je de hoofdrol hebt joh! |
+|   3   | Trots & Schuldig | Wat vervelend voor Merel. |
+|   4   | Trots & Schuldig | Wat leuk dat jullie samen hebben geoefend. Wanneer is het? |
+||||
+|   1   | Jaloers | Jij zou dat ook wel willen hè? Misschien kun je het je ouders nog een keer vragen. |
+|   2   | Jaloers | Wat stom dat Thijs wel altijd alles mag. |
+|   3   | Jaloers | Jouw ouders zijn ook echt streng. |
+|   4   | Jaloers | Wat leuk dat je aan het buitenspelen was. |
 
 # Adjustments in the annotation scheme
 
