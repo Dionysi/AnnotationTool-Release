@@ -299,7 +299,7 @@ direction LR
 | A character tells Ruby a short story about something that happened to him or her. This part is **not** indicated in the annotation tool. | Players must collectively determine the emotions of the character based on the story. The **decider** can communicate the chosen emotion(s) to Ruby. This is the first section of the mini-game highlight in the tool. | The game shows how the character actually feels, revealing whether the chosen emotions where correct. This part is also included in the first section of the mini-game highlight in the tool. | Each player is presented with their own predetermined reaction on how to respond to Ruby. They must read their answers aloud, and then determine as a group which answer is the most appropriate. The **decider** can communicate this answer to Ruby. |
 | ![](images/scenario-intro.png) | ![](images/scenario-coop-1.png) | ![](images/scenario-info.png) | ![](images/scenario-coop-2.png) |
 
-All possible answers for the scenario mini-games are.
+All possible options for the predetermined answers can be found in the table below.
 
 | Option | Scenario | Answer |
 | :---  | :---     | :---   |
@@ -333,6 +333,14 @@ direction LR
 | :---           | :---        |
 | Players individually choose three out of five graffiti tags that they believe best correspond to the emotion associated with the current level. This is the first part in the graffiti game highlight in the annotation tool. | Players view each other's selections and collaboratively decide which tags to include in Ruby's memory. They discuss and compare their choices, aiming to reach a consensus on the final selection. The **decider** can communicate the group's answer to Ruby. This is the second part of the mini-game highlight in the annotation tool. |
 | ![](images/graffiti-solo.png) | ![](images/graffiti-coop.png) |
+
+All graffiti tags that are included in the session can be found in the table below.
+
+| Emotion | Tag 1 | Tag 2 | Tag 3 | Tag 4 | Tag 5 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Jaloers | Maartje uit Merels team heeft een doelpunt gemaakt.| Bij Sarah is het gezellig thuis.	| Emma mag lang opblijven. | Luuk mag helpen met koken. | Bram mag een huisdier |
+| Trots | Merels team heeft gewonnen. | Thijs heeft een dure telefoon. | Ilse heeft een spreekbeurt gehouden. | Jelle heeft zijn oma geholpen. | Mustafa heeft de hoofdrol gekregen. |
+| Schuld | Dylan heeft Amber gepest. | Finn heeft zijn kleren vies gemaakt. | Sophie heeft een kras gemaakt op de auto van de buurman. | Eline heeft de iPad laten vallen en daarover gelogen. | Melissa heeft stiekem een zak chips gepakt. |
 
 
 # Adjustments in the annotation scheme
