@@ -182,7 +182,7 @@ A **response** (category 6) is any verbal action that is a reaction to **another
   > **Kind 2:** "En ook wel jaloers!" (cat. 6)
   -->
 
-- **(Rule 5)** During a conversation the topic of the conversation may transition naturally. In this case, consecutive verbal actions are continued to be categorized as responses. When a verbal action introduces an abrupt change of topic, the action is **not** categorized as a response. Consider this example during the scenario mini-game for the emotion 'jealousy'. 
+- **(Rule 5)** During a conversation the topic of the conversation may **transition naturally**. In this case, consecutive verbal actions are continued to be categorized as responses. When a verbal action introduces an **abrupt change** of topic, the action is **not** categorized as a response. Consider this example during the scenario mini-game for the emotion 'jealousy'. 
 
     ```mermaid
     sequenceDiagram
