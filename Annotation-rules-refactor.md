@@ -227,13 +227,13 @@ stateDiagram-v2
     Graffiti --> Outro
 ```
 
-While navigating through the city (indicated as "Driving" in Diagram 1), the players have two main goals. One goal is to collect the various graffiti tags scattered throughout the game world to unlock the graffiti mini-games. The second goal is to navigate to the points of interest to play the scenario- and poster mini-games.
+While navigating through the city (referred to as "Driving" in Diagram 1), players have two main objectives. Firstly, they aim to collect various graffiti tags scattered across the game world to unlock graffiti mini-games. Secondly, they navigate to points of interest to engage in scenario and poster mini-games.
 
-Each player is assigned a role at the start of the game. One player is assigned the **driver** role. This player is responsible for driving Ruby (and the group) through the city during the "driving" phase. By clicking in the gameworld or using the 'WASD'-keys, the player can move Ruby through the game world. The other players automatically follow the same path.
+At the beginning of the game, each player is assigned a role. One player takes on the role of the **driver**, responsible for steering Ruby (and the group) through the city during the "driving" phase. They can move Ruby using clicks in the game world or by using the 'WASD' keys, with other players automatically following the same path.
 
-Another player is assigned the **decider** role. This player is responsible for communicating the group-answers during the mini-games to Ruby (i.e. the game). See the [mini-game section](#mini-games) for more information on the specific decisions to be made. 
+Another player is designated as the **decider**, tasked with communicating the group's answers during mini-games to Ruby. Refer to the [mini-game section](#mini-games) for details on specific decisions to be made.
 
-The remaining one or two players (depending on whether the group consists of three our four players) are assigned the **collector** role. Collectors are responsible for collecting the graffiti tags scattered throughout the city during the driving phase. They can do so by clicking on the tags with their cursors. 
+The remaining player or players (depending on whether there are three or four players in the group) assume the **collector** role. Collectors are responsible for gathering graffiti tags scattered throughout the city during the driving phase, accomplished by clicking on the tags with their cursors.
 
 
 ## Mini Games
