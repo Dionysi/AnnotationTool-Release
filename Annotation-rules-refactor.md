@@ -182,7 +182,7 @@ A **response** (category 6) is any verbal action that is a reaction to **another
   > **Kind 2:** "En ook wel jaloers!" (cat. 6)
   -->
 
-- **(Rule 5)** During a conversation the topic of the conversation may transition smoothly. In this case, consecutive verbal actions are continued to be categorized as responses. When a verbal action introduces an abrupt change of topic, the action is **not** categorized as a response. Consider this example during the scenario mini-game for the emotion 'jealousy'. 
+- **(Rule 5)** During a conversation the topic of the conversation may transition naturally. In this case, consecutive verbal actions are continued to be categorized as responses. When a verbal action introduces an abrupt change of topic, the action is **not** categorized as a response. Consider this example during the scenario mini-game for the emotion 'jealousy'. 
 
     ```mermaid
     sequenceDiagram
@@ -196,7 +196,7 @@ A **response** (category 6) is any verbal action that is a reaction to **another
         Kind 1->>Kind 2: "Boos, maar ook bang." (categorie 6)
         Kind 1->Kind 2: [...]
         Kind 1->>Kind 2: "Hij is bang." (categorie 6)
-        Note over Kind 1, Kind 2: Hier vindt een smooth transitie plaats van 'hoe<br/>Thijs zich zou kunnen voelen' naar 'waarom Thijs<br/>bang zou zijn'. Opeenvolgende verbale acties op<br/>hetzelfde onderwerp gaan door als response.
+        Note over Kind 1, Kind 2: Hier vindt een natuurlijke transitie plaats van 'hoe<br/>Thijs zich zou kunnen voelen' naar 'waarom Thijs<br/>bang zou zijn'. Opeenvolgende verbale acties op<br/>hetzelfde onderwerp gaan door als response.
         Kind 2->>Kind 1: "Hoezo is die bang?" (categorie 6)
         par Kind 1 aan Kind 2
             Kind 1->>Kind 2: "Hij kan zich, wacht even hoor [...] Hij kan zich verbranden." (categorie 6)
