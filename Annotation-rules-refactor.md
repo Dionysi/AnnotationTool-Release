@@ -57,14 +57,6 @@ The stimulus category has been subdivided into multiple sub-categories relevant 
 
     _The example illustrates a child commanding others to add their answers to the poster mini-game onto the city so that everyone can read them._
 
-     <!--       > **Example 1**\
-    > **Kind:** "Rechts. Ja rechts. Door. Door." (cat. 2) _// Het kind geeft instructies tijdens het rijden._
-    >
-    > **Example 2**\
-    > **Kind:** "Hij moet wel op die muur komen he." (cat. 2) _// Het kind zegt dat de ander het antwoord op het poster spel op de muur moet hangen._ -->
-
----
-
   - **(Category 3) Remark about:** a verbal action contains a _remark about_ at least one _other_ person in the group.
 
     ```mermaid
@@ -79,14 +71,7 @@ The stimulus category has been subdivided into multiple sub-categories relevant 
     ```
 
     _Both examples are drawn from the same game session. In the first example, the child criticizes the driver's performance to the group. Later in the game (example 2), the child mentions that the driver is gradually improving in their role._
-    
-<!-- > **Example 1**\
-    > **Kind:** "[naam] is zo slecht in bestuurder he. Zo slecht." (cat. 3)
-    > 
-    > **Example 2**\
-    > **Kind:** "Goed zo, goed zo [naam]. Zij krijgt het onder de voet. Niet onder de knie, maar onder de voet." (cat. 3) -->
 
----
   
   - **(Category 4) Remark to:** a verbal action contains a _remark_ meant for at least one _other_ person in the group. Verbal actions about the shared task (i.e. the gameplay) are also considered as this sub-category. See an example below.
     
@@ -100,9 +85,6 @@ The stimulus category has been subdivided into multiple sub-categories relevant 
         Kind->>Groep: "Ik ga naar die blauwe!"
     ```
 
-    <!-- > **kind:** "Die blauwe!" (cat. 4) _// Het kind geeft hier aan dat ze een blauwe graffiti tag ziet._\
-    > **Kind:** "Ik ga naar die blauwe!" (cat. 4) _// Vervolgens communiceert het kind naar de groep dat zij hiernaartoe navigeert._ -->
-    
     **Category 4 continued:** Verbal actions that consist of reading out-loud what is on the screen are **not** considered this category. You may find all information on written texts in the [mini-game section](#mini-games) for reference during annotating. Consider the following example:
 
     ```mermaid
@@ -113,8 +95,6 @@ The stimulus category has been subdivided into multiple sub-categories relevant 
     ```
 
     _In this scenario, the child reads aloud the answer provided by another player during the poster mini-game. Simply reading aloud from the screen doesn't qualify as a stimulus, as it's merely a passive action without prompting or provocation._
-
-   <!-- > **Kind:** "Toen ik mijn advies kreeg. Lachen." -->
 
 ---
 
@@ -130,9 +110,6 @@ The stimulus category has been subdivided into multiple sub-categories relevant 
     ```
     
     _In this scenario, the first child reads aloud the text displayed on the screen. Just reading aloud wouldn't typically be seen as a stimulus according to category 4. However, because the second child responds to this by apologizing for being a slow typer and asking for patience from the others, the original action of reading aloud becomes an unintentional stimulus._
-
-  <!--  > **Kind 1:** "We wachten nog op [...] en [...], als beslisser kan je straks op verder klikken." (cat. 5)\
-    > **Kind 2:** "[inaudible] ik ben heel slecht in typen oke, dus eehh..." (cat. 6) -->
     
 ---
 
@@ -154,11 +131,6 @@ A **response** (category 6) is any verbal action that is a reaction to **another
     
   _In the example, the first line involves a command (category 2) instructing the driver to move in a specific direction. The second line shows the driver responding with a question (category 6), seeking clarification on the precise direction to take. Then, the collector responds with a remark about the shared task (category 6), offering clarity on the correct direction. Because both verbal actions in lines 2 and 3 are reactions to prior stimuli or responses, they are both categorized as responses._
 
- <!--
-  > **Verzamelaar:** "Ga die kant op!" (cat.  2)\
-  > **Bestuurder:** "Welke kant?" (cat.  6)\
-  > **Verzamelaar:** "Naar rechts." (cat.  6)
-  -->
 
 - **(Rule 4)** When a person follows up with multiple consecutive verbal actions within the context of a response to another person, each of these verbal actions are categorized as a response. For example:
 
@@ -175,12 +147,6 @@ A **response** (category 6) is any verbal action that is a reaction to **another
 
   _In the scenario, the second child initially responds to the initial question. Then, after a few seconds of contemplation, a second answer is given to the same question. Since both verbal actions are reactions to the initial stimulus, they are categorized as responses (category 6)._
 
-  <!--
-  > **Kind 1:** "Hoe denk jij dat Thijs zich kan voelen?" (cat. 1)\
-  > **Kind 2:** "Hmm, ik denk misschien wel boos..." (cat. 6)\
-  > \*silence\*\
-  > **Kind 2:** "En ook wel jaloers!" (cat. 6)
-  -->
 
 - **(Rule 5)** During a conversation the topic of the conversation may **transition naturally**. In this case, consecutive verbal actions are continued to be categorized as responses. When a verbal action introduces an **abrupt change** of topic, the action is **not** categorized as a response. Consider this example during the scenario mini-game for the emotion 'jealousy'. 
 
@@ -191,10 +157,10 @@ A **response** (category 6) is any verbal action that is a reaction to **another
         actor Kind 2
         Kind 1->>Kind 2: "Hoe zou Thijs zich kunnen voelen?" (categorie 1)
         Kind 2->>Kind 1: "Jaloers." (categorie 6)
-        Kind 1->Kind 2: [...]
+        Kind 1-->Kind 2: [...]
         Kind 2->>Kind 1: "En eeh... Boos." (categorie 6)
         Kind 1->>Kind 2: "Boos, maar ook bang." (categorie 6)
-        Kind 1->Kind 2: [...]
+        Kind 1-->Kind 2: [...]
         Kind 1->>Kind 2: "Hij is bang." (categorie 6)
         Note over Kind 1, Kind 2: Hier vindt een natuurlijke transitie plaats van 'hoe<br/>Thijs zich zou kunnen voelen' naar 'waarom Thijs<br/>bang zou zijn'. Opeenvolgende verbale acties op<br/>hetzelfde onderwerp gaan door als response.
         Kind 2->>Kind 1: "Hoezo is die bang?" (categorie 6)
@@ -206,26 +172,6 @@ A **response** (category 6) is any verbal action that is a reaction to **another
         Note over Kind 1, Kind 2: Hier vindt een abrupte transitie plaats van 'waarom<br/>Thijs zich bang zou kunnen voelen', naar 'hoe Thijs<br/>zich zou kunnen voelen'. Deze verbale actie wordt<br/>in dit geval gecategoriseerd als stimulus.
         Kind 1->>Kind 2: "Ik zeg eerlijk. Hij voelt zich ook blij" (categorie 4) 
     ```
-
-  <!--
-  > **Kind 1:** "Hoe zou Thijs zich kunnen voelen?" (cat. 1)\
-  > **Kind 2:** "Jaloers." (cat. 6)\
-  > [...]\
-  > **Kind 2:** "En eeh... Boos." (cat. 6)\
-  > **Kind 1:** "Boos, maar ook bang." (cat. 6)\
-  > [...]\
-  > **Kind 1:** "Hij is bang." (cat. 6)
-  > 
-  > _// Hier vindt een smooth transitie plaats van 'hoe Thijs zich zou kunnen voelen' naar 'waarom Thijs bang zou zijn'. Opeenvolgende verbale acties op hetzelfde onderwerp gaan door als response._
-  > 
-  > **Kind 2:** "Hoezo is die bang?" (cat. 6)\
-  > **Kind 1:** "Hij kan zich, wacht even hoor [...] Hij kan zich verbranden." (cat. 6)\
-  > **Kind 2:** "Mijn ou... Mijn ouders zijn bang. Niet hijzelf." (cat. 6)
-  >
-  > _// Hier vindt een abrupte transitie plaats van 'waarom Thijs zich bang zou kunnen voelen', naar 'hoe Thijs zich zou kunnen voelen'. Deze nieuwe verbale actie wordt in dit geval gecategoriseerd als stimulus._
-  > 
-  > **Kind 1:** "Ik zeg eerlijk. Hij voelt zich ook blij" (cat. 4) 
-  -->
 
 ### Ambiguous
 
