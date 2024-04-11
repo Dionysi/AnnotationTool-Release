@@ -72,6 +72,16 @@ The stimulus category has been subdivided into multiple sub-categories relevant 
 
     _Both examples are drawn from the same game session. In the first example, the child criticizes the driver's performance to the group. Later in the game (example 2), the child mentions that the driver is gradually improving in their role._
 
+    **Category 3 continued:** we do not include verbal actions about the person themselves. An example of a verbal action that is not included can be found below.
+
+    ```mermaid
+    sequenceDiagram
+        title Opmerking over jezelf.
+        actor Kind
+        Kind->Kind: "Ik ben echt goed in verzamelen."
+    ```
+
+    _In this example, the child makes a remark about themselves; that they are good at the game. Because the remark is about themselves and not about another person, it is not categorized as a stimulus._
   
   - **(Category 4) Remark to:** a verbal action contains a _remark_ meant for at least one _other_ person in the group. Verbal actions about the shared task (i.e. the gameplay) are also considered as this sub-category. See an example below.
     
@@ -85,7 +95,7 @@ The stimulus category has been subdivided into multiple sub-categories relevant 
         Kind->>Groep: "Ik ga naar die blauwe!"
     ```
 
-    **Category 4 continued:** Verbal actions that consist of reading out-loud what is on the screen are **not** considered this category. You may find all information on written texts in the [mini-game section](#mini-games) for reference during annotating. Consider the following example:
+    **Category 4 continued:** Verbal actions that consist of reading out-loud what is on the screen are **not** considered this category. You may find all information on written texts in the [mini-game section](#mini-games) for reference during annotating. An example that is not included can be found below.
 
     ```mermaid
     sequenceDiagram
