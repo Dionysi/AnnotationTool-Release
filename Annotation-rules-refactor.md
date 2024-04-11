@@ -280,12 +280,15 @@ direction LR
 | Provides information about a specific emotion and depicting associated body language and facial expressions. This section of the poster mini-game is **not** highlighted in the annotation tool, as it does not require any actions from the players.  | Players privately reflect on their own experiences related to the displayed emotion by sharing personal stories with Ruby through text-fields on the poster. Players may decide whether the others can see their answers.  | Players can read the answers of others who chose to share their answers with the group. They are asked to discuss their answers with each other. The **decider** can decide when to continue. The annotation tool marks the moment where **the second** player submitted their answer (regardless of the choice to share) as the start of the cooperative part. Only when two players are able to see each others answers, is there the possibility to start a discussion. |
 | ![](images/poster-intro.png) | ![](images/poster-solo.png) | ![](images/poster-coop.png) |
 
+In the timeline tool, the various parts are indicated as shown in the figure below.
+
+![](images/timeline-poster.png)
+
 The following posters where included in the playtest.
 
 | Jaloers |   Schuldig    | Trots |
 |    :---: |   :---:    | :---: |
 | ![](images/Poster_Jaloezie.png) | ![](images/Poster_Schuld.png) | ![](images/Poster_Trots.png) |
-
 
 ### Scenario Game
 
@@ -308,6 +311,10 @@ direction LR
 | :---         | :---            | :---     | :---          |
 | A character tells Ruby a short story about something that happened to him or her. This part is **not** indicated in the annotation tool. | Players must collectively determine the emotions of the character based on the story. The **decider** can communicate the chosen emotion(s) to Ruby. This is the first section of the mini-game highlight in the tool. | The game shows how the character actually feels, revealing whether the chosen emotions where correct. This part is also included in the first section of the mini-game highlight in the tool. | Each player is presented with their own predetermined reaction on how to respond to Ruby. They must read their answers aloud, and then determine as a group which answer is the most appropriate. The **decider** can communicate this answer to Ruby. |
 | ![](images/scenario-intro.png) | ![](images/scenario-coop-1.png) | ![](images/scenario-info.png) | ![](images/scenario-coop-2.png) |
+
+In the timeline tool, the various parts are indicated as shown in the figure below.
+
+![](images/timeline-scenario.png)
 
 All possible options for the predetermined answers can be found in the table below.
 
@@ -343,6 +350,10 @@ direction LR
 | :---           | :---        |
 | Players individually choose three out of five graffiti tags that they believe best correspond to the emotion associated with the current level. This is the first part in the graffiti game highlight in the annotation tool. | Players view each other's selections and collaboratively decide which tags to include in Ruby's memory. They discuss and compare their choices, aiming to reach a consensus on the final selection. The **decider** can communicate the group's answer to Ruby. This is the second part of the mini-game highlight in the annotation tool. |
 | ![](images/graffiti-solo.png) | ![](images/graffiti-coop.png) |
+
+In the timeline tool, the various parts are indicated as shown in the figure below.
+
+![](images/timeline-graffiti.png)
 
 All graffiti tags that are included in the session can be found in the table below.
 
