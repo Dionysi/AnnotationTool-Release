@@ -15,6 +15,7 @@
     - [Poster Game](#poster-game)
     - [Scenario Game](#scenario-game)
     - [Graffiti Game](#graffiti-game)
+- [Setting up a Project](#setting-up-a-project)
 - [Adjustments](#adjustments-in-the-annotation-scheme) (documentation only)
 
 # Introduction 
@@ -38,6 +39,7 @@ The [Overview of the Annotation Rules](#overview-of-the-annotation-rules) sectio
 
 Lastly, Category 4 (stimulus, remark to another person) specifies that reading text on the screen is not considered a stimulus. The [Mini Games](#mini-games) section categorizes various in-game texts by mini-game, serving as a reference for annotations. The annotation tool highlights when a mini-game is active, aiding in locating relevant images from this section.
 
+Finally, the section [Setting up a Project](#setting-up-a-project) discusses how to setup a project for annotation. It shows how a project file contains previous annotations for verbal actions. Although these predominantly correspond with the current definition of [verbal actions](#annotation-rules), they are not 100% accurate. Therefore it is important that all annotations that do not categorize as a verbal action are removed. Any verbal actions that may be missed must be added to the project. Refer to this section for setting up the project and for other considerations while annotating.
 
 # Background
 
@@ -223,6 +225,18 @@ Situations may arise in which it is **ambiguous** (category 7) how to categorize
 
 - **(Rule 8)** When it is evident that a verbal action does **not** categorize as a stimulus or as a response, the verbal action is **not** categorized (i.e. left unlabeled).
 
+- **(Rule 9)** Any verbal action, either stimulus or response, that is targeted at any other person than the fellow players is **not** annotated as a verbal action.
+
+  ```mermaid
+  sequenceDiagram
+      title Voorbeeld van Regel 9.
+      actor Kind 1
+      actor Researcher
+      Note right of Kind 1: Dit kind vindt dat de bestuurder zijn rol niet goed vervuld. Daarom<br/>vraagt deze speler of hij niet de bestuurder rol mag vervullen.
+      Kind 1->>Researcher: "Mag ik alsjeblieft bestuurder zijn?"
+  ```
+
+_In this example, the child asks the supervising researcher whether he may change to the driver role, as he believes that the driver is not executing their role good enough. Since this is a stimulus aimed at a person outside of the group of players, it is not annotated as a verbal action, and therefore not categorized as a question (category 1)._
 
 # Overview of the Annotation Rules
 
@@ -244,6 +258,7 @@ This section provides a compact overview of the annotation rules. Please refer t
 
 - **(Rule 8)** When it is evident that a verbal action does **not** categorize as a stimulus or as a response, the verbal action is **not** categorized (i.e. left unlabeled).
 
+- **(Rule 9)** Any verbal action, either stimulus or response, that is targeted at any other person than the fellow players is **not** annotated as a verbal action.
 
 # Gameplay
 
@@ -394,7 +409,28 @@ All graffiti tags that are included in the session can be found in the table bel
 | Schuld | Dylan heeft Amber gepest. | Finn heeft zijn kleren vies gemaakt. | Sophie heeft een kras gemaakt op de auto van de buurman. | Eline heeft de iPad laten vallen en daarover gelogen. | Melissa heeft stiekem een zak chips gepakt. |
 
 
-# Adjustments in the annotation scheme
+# Setting Up a Project
+
+Project files are provided for each of the gameplay sessions that we are going to annotate. To load a project file, please refer to this [section](https://github.com/Dionysi/AnnotationTool-Release/blob/master/README.md#loading-a-project-from-disk) in the README. A project file contains annotations for verbal actions from a previous annotation scheme. Although most of these annotations correspond with the current definitions of verbal actions, they are not 100% correct. Please remove any annotations that do not correspond with the present definition as described before. It may also be that some verbal actions have been missed in the previous annotations. Add these annotations to the project. 
+
+When a project is loaded for the first time, we must add the labels for the various annotations to the project. We may do this by clicking "add label" in the [annotation window](#https://github.com/Dionysi/AnnotationTool-Release/blob/master/README.md#annotation-window). Please also include the numerals to the labels (i.e. "1. Question", not "Question"). For all labels, see the list below.
+
+1. Question
+2. Command
+3. Remark about
+4. Remark to
+5. Unintended
+6. Response
+7. Ambiguous
+
+Next, we should also synchronize the media for the various streams. Luckily (typically we try to avoid this, but in this case it offers us the possibility to synchronize) we can often hear other players through the microfones of others. We can utilize this to synchronize the streams. Refer to [this section](https://github.com/Dionysi/AnnotationTool-Release/blob/master/README.md#project-controls) on how to synchronize the various media streams.
+
+Finally, we should import updated timings for the various mini-games. To do this, we click "Annotation > Import Mini-Game Events" from the menu bar at the top of the annotation tool. Select the provided .csv file to import the mini-games automatically. Press Ctrl+S to save these changes to the project. Next time that we load our project file, it should have saved these changes. 
+
+We are now ready to annotate the social interactions. It is **important** to remember that the tool does not automatically saves the project. Do not forget to save (Ctrl + S) from time-to-time to prevent losing any annotations. 
+
+
+# Adjustments in the Annotation Scheme
 
 - Might need to clarify the definition of category 6, _"All verbal actions using language as a response to another person's verbal or non-verbal actions"_. Two reasons for this consideration are:
    - The data is often ambiguous on whether or not the participants respond to an in-game action.
@@ -407,11 +443,4 @@ All graffiti tags that are included in the session can be found in the table bel
    - ~We may **not** annotate these interactions at all.~ 
 
 
-# Labels in the project
-1. Question
-2. Command
-3. Remark about
-4. Remark to
-5. Unintended
-6. Response
-7. Ambiguous
+
