@@ -201,7 +201,7 @@ The following controls are available when a project **has** been loaded.
 [Ctrl + Y] Redo action.
 
 [J] Seek to the start of the _first_ selected frame.\
-[Del] Delete **all** selected segments.\
+[Del] Delete **all** selected segments.
 
 [Ctrl + X] Mark **all** selected segments as "speech".\
 [Ctrl + C] Mark **all** selected segments as "non-speech".\
