@@ -31,6 +31,7 @@ This document describes the rules for annotating social interactions of the part
 
 
 
+
 # Background
 
 The annotations for social interaction are based on the Stimulus-Response (SR-)model from psychology. Social interaction is the way in which persons mutually influence one another (Bardis, 1979). The SR-model says that every social action is determined by the previous social action of another person (Argyle, 2017). Our annotation rules are based upon this model of social interaction. It has been slightly adjusted to better fit within our specific context. 
@@ -65,14 +66,6 @@ The stimulus category has been subdivided into multiple sub-categories relevant 
         actor Kind 2
         Kind 1->>Kind 2: "Had jij echt je moeders telefoon gesloopt?"
     ```
-    
- <!--   > **Example 1**\
-    > **Kind:** "Had jij echt je moeders telefoon gesloopt?" (cat. 1)
-    > 
-    > **Example 2**\
-    > **Kind:** "Ja! Waar moet ik heen?" (cat. 1) -->
-
----
   
   - **(Category 2) Command:** a verbal action that contains a _command_ directed to at least one _other_ person in the group. See two examples below.
 
