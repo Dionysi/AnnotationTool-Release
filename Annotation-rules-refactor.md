@@ -27,9 +27,16 @@ This document describes the rules for annotating social interactions of the part
 4. **Annotation Tool:** We distribute the annotation tool and offer a brief explanation on how to use it. A more detailed guide to the tool can be found [here](https://github.com/Dionysi/AnnotationTool-Release/blob/master/README.md).
 5. **Interrater Reliability:** Finally, we assess interrater reliability by annotating various sections of multiple gameplay sessions. The head researcher and all annotators participate in this process. If reliability is deemed insufficient, we discuss inconsistencies and make necessary adjustments to the annotation scheme. This iterative process continues until satisfactory interrater reliability is achieved.
 
-## How to use this document?
 
+## How to Use This Document?
 
+As outlined in the [Introduction](#introduction), it's essential to thoroughly read the document before beginning annotations. Once familiarized with the content, the document serves as a guide for annotations.
+
+The [Annotation Rules](#annotation-rules) section offers detailed guidelines for annotating social interactions using the stimulus-response model. Eight rules are provided, distributed among the [stimulus](#stimulus), [response](#response), and [ambiguous](#ambiguous) categories. Each rule is explained, often with accompanying examples for clarity. Some rules interact with each other; for instance, Rule 1 defines a stimulus, while Rule 3 classifies stimuli that also serve as responses. Therefore, understanding all rules is crucial.
+
+The [Overview of the Annotation Rules](#overview-of-the-annotation-rules) section provides a concise summary of all rules, serving as a quick reference during annotations. For clarification, one can refer back to the detailed descriptions in the previous section.
+
+Lastly, Category 4 (stimulus, remark to another person) specifies that reading text on the screen is not considered a stimulus. The [Mini Games](#mini-games) section categorizes various in-game texts by mini-game, serving as a reference for annotations. The annotation tool highlights when a mini-game is active, aiding in locating relevant images from this section.
 
 
 # Background
