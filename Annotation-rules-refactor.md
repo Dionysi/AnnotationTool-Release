@@ -15,7 +15,7 @@
     - [Poster Game](#poster-game)
     - [Scenario Game](#scenario-game)
     - [Graffiti Game](#graffiti-game)
-
+- [Adjustments](#adjustments-in-the-annotation-scheme) (documentation only)
 
 # Introduction 
 
