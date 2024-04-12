@@ -3,7 +3,7 @@
 # Table of Contents
 
 - [Introduction](#introduction)
-  - [How to use this document?](#how-to-use-this-document?)
+  - [How to use this document?](#how-to-use-this-document)
 - [Background](#background)
 - [Annotation Rules](#annotation-rules)
   - [Stimulus](#stimulus)
