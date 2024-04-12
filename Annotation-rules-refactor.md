@@ -115,7 +115,8 @@ The stimulus category has been subdivided into multiple sub-categories relevant 
         title Voorbeeld van niet intentionele stimulus (categorie 5).
         actor Kind 1
         actor Kind 2
-        Kind 1->>Kind 1: "We wachten nog op [...] en [...], als beslisser kan je straks op verder klikken."
+        Note right of Kind 1: Kind 1 leest de text voor wat op het scherm staat<br/>in het cooperatieve gedeelte van de poster game.
+        Kind 1->>Kind 1: "We wachten nog op [Kind 2] [...], als beslisser kan je straks op verder klikken."
         Kind 2->>Kind 1: "[onverstaanbaar] ik ben heel slecht in typen oke, dus eehh..."
     ```
     
