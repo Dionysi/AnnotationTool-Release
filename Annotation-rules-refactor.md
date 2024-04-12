@@ -1,6 +1,35 @@
 # Annotation Scheme for Social Interactions in Ruby's Mission
 
-**How to use this document?** TODO: write a short paragraph on how to use this document.
+# Table of Contents
+
+- [Introduction](#introduction)
+  - [How to use this document?](#how-to-use-this-document?)
+- [Background](#background)
+- [Annotation Rules](#annotation-rules)
+  - [Stimulus](#stimulus)
+  - [Response](#response)
+  - [Ambiguous](#ambiguous)
+- [Overview of the Annotation Rules](#overview-of-the-annotation-rules)
+- [Gameplay](#gameplay)
+  - [Mini Games](#mini-games)
+    - [Poster Game](#poster-game)
+    - [Scenario Game](#scenario-game)
+    - [Graffiti Game](#graffiti-game)
+
+
+# Introduction 
+
+This document describes the rules for annotating social interactions of the participants while playing the first level of Ruby's Mission. Before we can start annotating, we go through the following steps:
+
+1. **Briefing:** We provide a brief overview of the study's purpose and explain the role of annotations within this context.
+2. **Ruby's Mission:** We play Ruby's Mission ourselves to familiarize ourselves with the game and the tasks participants were required to complete.
+3. **Reading the document:** It's crucial to thoroughly read the document from start to finish before proceeding with any annotations. Failing to do so might lead to discovering exceptions in annotation rules later, potentially invalidating previous work.
+4. **Annotation Tool:** We distribute the annotation tool and offer a brief explanation on how to use it. A more detailed guide to the tool can be found [here](https://github.com/Dionysi/AnnotationTool-Release/blob/master/README.md).
+5. **Interrater Reliability:** Finally, we assess interrater reliability by annotating various sections of multiple gameplay sessions. The head researcher and all annotators participate in this process. If reliability is deemed insufficient, we discuss inconsistencies and make necessary adjustments to the annotation scheme. This iterative process continues until satisfactory interrater reliability is achieved.
+
+## How to use this document?
+
+
 
 # Background
 
@@ -11,13 +40,13 @@ The annotations for social interaction are based on the Stimulus-Response (SR-)m
 - Argyle, M. (2017). Social interaction: process and products. Routledge.
 - Bardis, P. D. (1979). Social interaction and social processes. Social Science, 54(3), 147-167.
 
-# Annotation rules
+# Annotation Rules
 
 The present scheme only considers verbal actions for annotations. A **verbal action** is any sound an individual produces with their voice that contains language. Verbal actions are categorized as either a [stimulus](#stimulus), as a [response](#response), or as [ambiguous](#ambiguous). In the present annotation scheme a **conversation** refers to a stimulus followed by _at least one_ response. 
 
 Following this section is a extensive overview of the rules for annotating verbal actions according to the present annotation scheme. For a compact overview of the annotation rules, please refer to the [overview of the annotation rules](#overview-of-the-annotation-rules).
 
-### Stimulus 
+## Stimulus 
 
 A **stimulus** is either **(a)** a verbal action that is intended for others to respond to _verbally_ (through a verbal action), or  _in-game_ (through an action in the video game); or **(b)** a verbal action that others respond to _verbally_, even though this was not the speakers intention. 
 
@@ -124,7 +153,7 @@ The stimulus category has been subdivided into multiple sub-categories relevant 
     
 ---
 
-### Response
+## Response
 
 A **response** (category 6) is any verbal action that is a reaction to **another person's _verbal action_** (stimulus or response, not in-game or physical actions) **(Rule 2)**. Below are the rules regarding the annotation of responses:
 
@@ -184,7 +213,7 @@ A **response** (category 6) is any verbal action that is a reaction to **another
         Kind 1->>Kind 2: "Ik zeg eerlijk. Hij voelt zich ook blij" (categorie 4) 
     ```
 
-### Ambiguous
+## Ambiguous
 
 Situations may arise in which it is **ambiguous** (category 7) how to categorize a verbal action. The following rules are in place to handle these situations:
 
@@ -195,7 +224,7 @@ Situations may arise in which it is **ambiguous** (category 7) how to categorize
 - **(Rule 8)** When it is evident that a verbal action does **not** categorize as a stimulus or as a response, the verbal action is **not** categorized (i.e. left unlabeled).
 
 
-## Overview of the Annotation Rules
+# Overview of the Annotation Rules
 
 This section provides a compact overview of the annotation rules. Please refer to the previous sections for more extensive descripitions.
 
