@@ -411,9 +411,9 @@ All graffiti tags that are included in the session can be found in the table bel
 
 # Setting Up a Project
 
-Project files are provided for each of the gameplay sessions that we are going to annotate. To load a project file, please refer to this [section](https://github.com/Dionysi/AnnotationTool-Release/blob/master/README.md#loading-a-project-from-disk) in the README. A project file contains annotations for verbal actions from a previous annotation scheme. Although most of these annotations correspond with the current definitions of verbal actions, they are not 100% correct. Please remove any annotations that do not correspond with the present definition as described before. It may also be that some verbal actions have been missed in the previous annotations. Add these annotations to the project. 
+Project files are provided for each of the gameplay sessions that we are going to annotate. To load a project file, please refer to this [section](./README.md#loading-a-project-from-disk) in the README. A project file contains annotations for verbal actions from a previous annotation scheme. Although most of these annotations correspond with the current definitions of verbal actions, they are not 100% correct. Please remove any annotations that do not correspond with the present definition as described before. It may also be that some verbal actions have been missed in the previous annotations. Add these annotations to the project. 
 
-When a project is loaded for the first time, we must add the labels for the various annotations to the project. We may do this by clicking "add label" in the [annotation window](#https://github.com/Dionysi/AnnotationTool-Release/blob/master/README.md#annotation-window). Please also include the numerals to the labels (i.e. "1. Question", not "Question"). For all labels, see the list below.
+When a project is loaded for the first time, we must add the labels for the various annotations to the project. We may do this by clicking "add label" in the [annotation window](./README.md#annotation-window). Please also include the numerals to the labels (i.e. "1. Question", not "Question"). For all labels, see the list below.
 
 1. Question
 2. Command
@@ -423,7 +423,7 @@ When a project is loaded for the first time, we must add the labels for the vari
 6. Response
 7. Ambiguous
 
-Next, we should also synchronize the media for the various streams. Luckily (typically we try to avoid this, but in this case it offers us the possibility to synchronize) we can often hear other players through the microfones of others. We can utilize this to synchronize the streams. Refer to [this section](https://github.com/Dionysi/AnnotationTool-Release/blob/master/README.md#project-controls) on how to synchronize the various media streams.
+Next, we should also synchronize the media for the various streams. Luckily (typically we try to avoid this, but in this case it offers us the possibility to synchronize) we can often hear other players through the microfones of others. We can utilize this to synchronize the streams. Refer to [this section](./README.md#project-controls) on how to synchronize the various media streams.
 
 Finally, we should import updated timings for the various mini-games. To do this, we click "Annotation > Import Mini-Game Events" from the menu bar at the top of the annotation tool. Select the provided .csv file to import the mini-games automatically. Press Ctrl+S to save these changes to the project. Next time that we load our project file, it should have saved these changes. 
 
