@@ -25,7 +25,7 @@ This document describes the rules for annotating social interactions of the part
 1. **Briefing:** We provide a brief overview of the study's purpose and explain the role of annotations within this context.
 2. **Ruby's Mission:** We play Ruby's Mission ourselves to familiarize ourselves with the game and the tasks participants were required to complete.
 3. **Reading the document:** It's crucial to thoroughly read the document from start to finish before proceeding with any annotations. Failing to do so might lead to discovering exceptions in annotation rules later, potentially invalidating previous work.
-4. **Annotation Tool:** We distribute the annotation tool and offer a brief explanation on how to use it. A more detailed guide to the tool can be found [here](https://github.com/Dionysi/AnnotationTool-Release/blob/master/README.md).
+4. **Annotation Tool:** We distribute the annotation tool and offer a brief explanation on how to use it. A more detailed guide to the tool can be found [here](./README.md).
 5. **Interrater Reliability:** Finally, we assess interrater reliability by annotating various sections of multiple gameplay sessions. The head researcher and all annotators participate in this process. If reliability is deemed insufficient, we discuss inconsistencies and make necessary adjustments to the annotation scheme. This iterative process continues until satisfactory interrater reliability is achieved.
 
 
