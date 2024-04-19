@@ -8,7 +8,7 @@
 - [Annotation Rules](#annotation-rules)
   - [Stimulus](#stimulus)
   - [Response](#response)
-  - [Ambiguous](#ambiguous)
+  - [Other](#other)
 - [Overview of the Annotation Rules](#overview-of-the-annotation-rules)
 - [Gameplay](#gameplay)
   - [Mini Games](#mini-games)
@@ -52,7 +52,7 @@ The annotations for social interaction are based on the Stimulus-Response (SR-)m
 
 # Annotation Rules
 
-The present scheme only considers verbal actions for annotations. A **verbal action** is any sound an individual produces with their voice that contains language. Verbal actions are categorized as either a [stimulus](#stimulus), as a [response](#response), or as [ambiguous](#ambiguous). In the present annotation scheme a **conversation** refers to a stimulus followed by _at least one_ response. 
+The present scheme only considers verbal actions for annotations. A **verbal action** is any sound an individual produces with their voice that contains language. Verbal actions are categorized as either a [stimulus](#stimulus), as a [response](#response), or as [ambiguous](#other) (Rule 7). In the present annotation scheme a **conversation** refers to a stimulus followed by _at least one_ response.
 
 Following this section is a extensive overview of the rules for annotating verbal actions according to the present annotation scheme. For a compact overview of the annotation rules, please refer to the [overview of the annotation rules](#overview-of-the-annotation-rules).
 
@@ -215,13 +215,13 @@ A **response** (category 6) is any verbal action that is a reaction to **another
         Kind 1->>Kind 2: "Ik zeg eerlijk. Hij voelt zich ook blij" (categorie 4) 
     ```
 
-## Ambiguous
+## Other
 
-Situations may arise in which it is **ambiguous** (category 7) how to categorize a verbal action. The following rules are in place to handle these situations:
+Other situations that you may encounter:
 
 - **(Rule 6)** When it is ambiguous whether a verbal action categorizes as a response **and** the verbal action clearly categorizes as a stimulus, the verbal action is then annotated as a stimulus (i.e. cat. 1 to 5).
 
-- **(Rule 7)** When it is not evident if a verbal action categorizes as a stimulus or as a response, the verbal action is categorized as ambiguous (cat. 7).
+- **(Rule 7)** When it is not evident if a verbal action categorizes as a stimulus or as a response, the verbal action is categorized as **ambiguous** (category. 7).
 
 - **(Rule 8)** When it is evident that a verbal action does **not** categorize as a stimulus or as a response, the verbal action is **not** categorized (i.e. left unlabeled).
 
@@ -242,7 +242,13 @@ _In this example, the child asks the supervising researcher whether he may chang
 
 This section provides a compact overview of the annotation rules. Please refer to the previous sections for more extensive descripitions.
 
+
+**Stimulus**
+
 - **(Rule 1)** A verbal action is considered a **stimulus** when it fits within any of its sub-categories: (category 1) question, (category 2) command, (category 3) remark about another in the group, (category 4) remark directed to at least one other person in the group, or (category 5) unintended stimuli (verbal actions that others respond to, although this may not have been intended).
+
+
+**Response**
 
 - **(Rule 2)** A verbal action is considered a **response** (category 6) when this action is a reaction to **another person's _verbal action_** (stimulus or response)
 
@@ -251,6 +257,9 @@ This section provides a compact overview of the annotation rules. Please refer t
 - **(Rule 4)** When a person follows up with multiple consecutive verbal actions within the context of a response to another person, each of these verbal actions are categorized as a response.
 
 - **(Rule 5)** During a conversation the topic of the conversation may transition smoothly. In this case, consecutive verbal actions are continued to be categorized as responses. When a verbal action introduces an abrupt change of topic, the action is **not** categorized as a response.
+
+
+**Other**
 
 - **(Rule 6)** When it is ambiguous whether a verbal action categorizes as a response **and** the verbal action clearly categorizes as a stimulus, the verbal action is then annotated as a stimulus (i.e. categories 1 to 5).
 
