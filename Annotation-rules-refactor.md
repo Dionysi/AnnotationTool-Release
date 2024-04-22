@@ -245,7 +245,17 @@ This section provides a compact overview of the annotation rules. Please refer t
 
 [**Stimulus**](#Stimulus)
 
-- **(Rule 1)** A verbal action is considered a **stimulus** when it fits within any of its sub-categories: (category 1) question, (category 2) command, (category 3) remark about another in the group, (category 4) remark directed to at least one other person in the group, or (category 5) unintended stimuli (verbal actions that others respond to, although this may not have been intended).
+- **(Rule 1)** A verbal action is considered a **stimulus** when it fits within any of its sub-categories:
+
+    - (category 1) **question:** a verbal action that contains a _question_ directed to at least one _other_ person in the group.
+      
+    - (category 2) **command:** a verbal action that contains a _command_ directed to at least one _other_ person in the group.
+  
+    - (category 3) **remark about another in the group:** a verbal action contains a _remark about_ at least one _other_ person in the group.
+  
+    - (category 4) **remark directed to at least one other person in the group:** a verbal action contains a _remark_ meant for at least one _other_ person in the group. Verbal actions about the shared task (i.e. the gameplay) are also considered as this sub-category.
+  
+    - (category 5) **unintended stimuli:** any verbal actions that _another_ person in the group responds to, even though this may not have been the speakers intention.
 
 
 [**Response**](#Response)
