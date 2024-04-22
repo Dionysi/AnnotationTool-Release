@@ -243,12 +243,12 @@ _In this example, the child asks the supervising researcher whether he may chang
 This section provides a compact overview of the annotation rules. Please refer to the previous sections for more extensive descripitions.
 
 
-**Stimulus**
+[**Stimulus**](#Stimulus)
 
 - **(Rule 1)** A verbal action is considered a **stimulus** when it fits within any of its sub-categories: (category 1) question, (category 2) command, (category 3) remark about another in the group, (category 4) remark directed to at least one other person in the group, or (category 5) unintended stimuli (verbal actions that others respond to, although this may not have been intended).
 
 
-**Response**
+[**Response**](#Response)
 
 - **(Rule 2)** A verbal action is considered a **response** (category 6) when this action is a reaction to **another person's _verbal action_** (stimulus or response)
 
@@ -259,7 +259,7 @@ This section provides a compact overview of the annotation rules. Please refer t
 - **(Rule 5)** During a conversation the topic of the conversation may transition smoothly. In this case, consecutive verbal actions are continued to be categorized as responses. When a verbal action introduces an abrupt change of topic, the action is **not** categorized as a response.
 
 
-**Other**
+[**Other**](#Others)
 
 - **(Rule 6)** When it is ambiguous whether a verbal action categorizes as a response **and** the verbal action clearly categorizes as a stimulus, the verbal action is then annotated as a stimulus (i.e. categories 1 to 5).
 
