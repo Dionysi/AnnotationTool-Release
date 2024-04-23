@@ -234,7 +234,7 @@ Other situations that you may encounter:
       title Voorbeeld van Regel 10.
       actor Kind 1
       actor Researcher
-      Note right of Kind 1: Dit kind vindt dat de bestuurder zijn rol niet goed vervuld. Daarom<br/>vraagt deze speler of hij niet de bestuurder rol mag vervullen.
+      Note right of Kind 1: Het kind vindt dat de bestuurder zijn rol niet goed vervuld. Daarom<br/>vraagt deze speler of hij niet de bestuurder rol mag vervullen.
       Kind 1->>Researcher: "Mag ik alsjeblieft bestuurder zijn?"
   ```
 
