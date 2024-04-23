@@ -224,12 +224,14 @@ Other situations that you may encounter:
 - **(Rule 7)** When it is not evident if a verbal action categorizes as a stimulus or as a response, the verbal action is categorized as **ambiguous** (category. 7).
 
 - **(Rule 8)** When it is evident that a verbal action does **not** categorize as a stimulus or as a response, the verbal action is **not** categorized (i.e. left unlabeled).
+  
+- **(Rule 9)** Verbal actions where the language used is inaudible, making it impossible to determine whether it constitutes a stimulus or a response, are classified as ambiguous (category 7).
 
-- **(Rule 9)** Any verbal action, either stimulus or response, that is targeted at any other person than the fellow players is **not** annotated as a verbal action.
+- **(Rule 10)** Any verbal action, either stimulus or response, that is targeted at any other person than the fellow players is **not** annotated as a verbal action.
 
   ```mermaid
   sequenceDiagram
-      title Voorbeeld van Regel 9.
+      title Voorbeeld van Regel 10.
       actor Kind 1
       actor Researcher
       Note right of Kind 1: Dit kind vindt dat de bestuurder zijn rol niet goed vervuld. Daarom<br/>vraagt deze speler of hij niet de bestuurder rol mag vervullen.
@@ -237,6 +239,7 @@ Other situations that you may encounter:
   ```
 
 _In this example, the child asks the supervising researcher whether he may change to the driver role, as he believes that the driver is not executing their role good enough. Since this is a stimulus aimed at a person outside of the group of players, it is not annotated as a verbal action, and therefore not categorized as a question (category 1)._
+
 
 # Overview of the Annotation Rules
 
@@ -276,8 +279,11 @@ This section provides a compact overview of the annotation rules. Please refer t
 - **(Rule 7)** When it is not evident if a verbal action categorizes as a stimulus or as a response, the verbal action is categorized as ambiguous (category 7).
 
 - **(Rule 8)** When it is evident that a verbal action does **not** categorize as a stimulus or as a response, the verbal action is **not** categorized (i.e. left unlabeled).
+  
+- **(Rule 9)** Verbal actions where the language used is inaudible, making it impossible to determine whether it constitutes a stimulus or a response, are classified as ambiguous (category 7).
 
-- **(Rule 9)** Any verbal action, either stimulus or response, that is targeted at any other person than the fellow players is **not** annotated as a verbal action.
+- **(Rule 10)** Any verbal action, either stimulus or response, that is targeted at any other person than the fellow players is **not** annotated as a verbal action.
+
 
 # Gameplay
 
