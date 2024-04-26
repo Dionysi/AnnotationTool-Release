@@ -221,7 +221,7 @@ The following controls are available when a project **has** been loaded.
 [Ctrl + N] Add new segment to the project via the timeline tool. When this option is selected, you may click on any of the streams to set the start/end of a new speech segment. You may then click again to determine the length of the segment.\
 [Ctrl + M] Merges the selected segments only if (1) multiple segments are selected and (2) all selected segments belong to the same stream (participant).
 
-[Ctrl + 0] Remove labels for each selected segment.\
+[Ctrl + 0] Remove labels for all selected segments.\
 [Ctrl + 1..9] Set label _n_ for each selected segment.
 
 [Ctrl + Alt + L] Toggle always display highlight labels in the timeline over the highlight overlays.
