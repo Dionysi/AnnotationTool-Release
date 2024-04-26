@@ -31,7 +31,7 @@ This document describes the rules for annotating social interactions of the part
 
 As outlined in the [Introduction](#annotation-scheme-for-social-interactions-in-rubys-mission), it's essential to thoroughly read the document before beginning annotations. Once familiarized with the content, the document serves as a guide for annotations.
 
-The [Annotation Rules](#annotation-rules) section offers detailed guidelines for annotating social interactions using the stimulus-response model. Eight rules are provided, distributed among the [stimulus](#stimulus), [response](#response), and [ambiguous](#ambiguous) categories. Each rule is explained, often with accompanying examples for clarity. Some rules interact with each other; for instance, Rule 1 defines a stimulus, while Rule 3 classifies stimuli that also serve as responses. Therefore, understanding all rules is crucial.
+The [Annotation Rules](#annotation-rules) section offers detailed guidelines for annotating social interactions using the stimulus-response model. Eight rules are provided, distributed among the [stimulus](#stimulus), [response](#response), and [ambiguous](#other) categories. Each rule is explained, often with accompanying examples for clarity. Some rules interact with each other; for instance, Rule 1 defines a stimulus, while Rule 3 classifies stimuli that also serve as responses. Therefore, understanding all rules is crucial.
 
 The [Overview of the Annotation Rules](#overview-of-the-annotation-rules) section provides a concise summary of all rules, serving as a quick reference during annotations. For clarification, one can refer back to the detailed descriptions in the previous section.
 
