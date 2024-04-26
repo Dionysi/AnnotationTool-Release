@@ -1,6 +1,6 @@
 # Annotation Scheme for Social Interactions in Ruby's Mission
 
-# Table of Contents
+## Table of Contents
 
 - [Introduction](#introduction)
   - [How to use this document?](#how-to-use-this-document)
