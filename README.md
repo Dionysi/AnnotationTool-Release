@@ -204,7 +204,7 @@ The following controls are available when a project **has** been loaded.
 [Spacebar] Play/Pause media playback.\
 [Left] Skip a single frame back and pauses media.\
 [Right] Forward a single frame and pauses media.\
-[Ctrl + Alt + F] Toggle auto focus on timeline when current presentation time moves outside of the visible window.
+[Ctrl + Alt + F] Auto focus on the current frame when it goes out-of-view when playing the media. 
 
 ## Annotation Controls (Only when a project has been loaded.)
 
@@ -224,8 +224,7 @@ The following controls are available when a project **has** been loaded.
 [Ctrl + 0] Remove labels for each selected segment.\
 [Ctrl + 1..9] Set label _n_ for each selected segment.
 
-[Ctrl + Alt + L] Toggle always display highlight labels in the timeline over the highlight overlays.\
-[Ctrl + Alt + F] Auto focus on the current frame when it goes out-of-view when playing the media. 
+[Ctrl + Alt + L] Toggle always display highlight labels in the timeline over the highlight overlays.
 
 # Project File Structure
 Project data is stored as plain-text in a file with extension ".nnt". A valid project file has the following structure:
