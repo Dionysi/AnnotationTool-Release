@@ -1,5 +1,14 @@
 # Annotation Scheme for Social Interactions in Ruby's Mission
 
+This document describes the rules for annotating social interactions of the participants while playing the first level of Ruby's Mission. Before we can start annotating, we go through the following steps:
+
+1. **Briefing:** We provide a brief overview of the study's purpose and explain the role of annotations within this context.
+2. **Ruby's Mission:** We play Ruby's Mission ourselves to familiarize ourselves with the game and the tasks participants were required to complete.
+3. **Reading the document:** It's crucial to thoroughly read the document from start to finish before proceeding with any annotations. Failing to do so might lead to discovering exceptions in annotation rules later, potentially invalidating previous work.
+4. **Annotation Tool:** We distribute the annotation tool and offer a brief explanation on how to use it. A more detailed guide to the tool can be found [here](./README.md).
+5. **Interrater Reliability:** Finally, we assess interrater reliability by annotating various sections of multiple gameplay sessions. The head researcher and all annotators participate in this process. If reliability is deemed insufficient, we discuss inconsistencies and make necessary adjustments to the annotation scheme. This iterative process continues until satisfactory interrater reliability is achieved.
+
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -18,20 +27,9 @@
 - [Setting up a Project](#setting-up-a-project)
 - [Adjustments](#adjustments-in-the-annotation-scheme) (documentation only)
 
-# Introduction 
-
-This document describes the rules for annotating social interactions of the participants while playing the first level of Ruby's Mission. Before we can start annotating, we go through the following steps:
-
-1. **Briefing:** We provide a brief overview of the study's purpose and explain the role of annotations within this context.
-2. **Ruby's Mission:** We play Ruby's Mission ourselves to familiarize ourselves with the game and the tasks participants were required to complete.
-3. **Reading the document:** It's crucial to thoroughly read the document from start to finish before proceeding with any annotations. Failing to do so might lead to discovering exceptions in annotation rules later, potentially invalidating previous work.
-4. **Annotation Tool:** We distribute the annotation tool and offer a brief explanation on how to use it. A more detailed guide to the tool can be found [here](./README.md).
-5. **Interrater Reliability:** Finally, we assess interrater reliability by annotating various sections of multiple gameplay sessions. The head researcher and all annotators participate in this process. If reliability is deemed insufficient, we discuss inconsistencies and make necessary adjustments to the annotation scheme. This iterative process continues until satisfactory interrater reliability is achieved.
-
-
 ## How to Use This Document?
 
-As outlined in the [Introduction](#introduction), it's essential to thoroughly read the document before beginning annotations. Once familiarized with the content, the document serves as a guide for annotations.
+As outlined in the [Introduction](#annotation-scheme-for-social-interactions-in-ruby's-mission), it's essential to thoroughly read the document before beginning annotations. Once familiarized with the content, the document serves as a guide for annotations.
 
 The [Annotation Rules](#annotation-rules) section offers detailed guidelines for annotating social interactions using the stimulus-response model. Eight rules are provided, distributed among the [stimulus](#stimulus), [response](#response), and [ambiguous](#ambiguous) categories. Each rule is explained, often with accompanying examples for clarity. Some rules interact with each other; for instance, Rule 1 defines a stimulus, while Rule 3 classifies stimuli that also serve as responses. Therefore, understanding all rules is crucial.
 
