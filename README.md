@@ -224,7 +224,7 @@ The following controls are available when a project **has** been loaded.
 [Ctrl + 0] Remove labels for each selected segment.\
 [Ctrl + 1..9] Set label _n_ for each selected segment.
 
-[Ctrl + Alt + L] Toggle always display highlight labels in the timeline over the highlight overlays.
+[Ctrl + Alt + L] Toggle always display highlight labels in the timeline over the highlight overlays.\
 [Ctrl + Alt + F] Auto focus on the current frame when it goes out-of-view when playing the media. 
 
 # Project File Structure
