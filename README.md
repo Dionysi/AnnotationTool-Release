@@ -2,7 +2,7 @@
 
 This is a custom annotation tool created to conveniently annotate multiple video + audio recordings from  experiments with the video game Ruby's Mission. The tool has been refactored such that we could conveniently synchronize multiple media streams, to load more detailed mini game information, and finally to improve some quality of life aspects in the annotation workflow.
 
-# Table of Contents
+## Table of Contents
 
 - [Workflow](#Workflow)
   - [Creating a new project](#creating-a-new-annotation-project)
