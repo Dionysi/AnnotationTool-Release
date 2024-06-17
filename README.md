@@ -231,9 +231,9 @@ Project data is stored as plain-text in a file with extension ".nnt". A valid pr
 
 
 ```
-[master player code] (text)
 [session name] (text)
 [session hash] (text)
+[master player code] (text)
 [session start] (timestamp, yy-mm-dd-hh-mm-ss)
 [session end] (timestamp, yy-mm-dd-hh-mm-ss)
 [# mini game events] (integer)
