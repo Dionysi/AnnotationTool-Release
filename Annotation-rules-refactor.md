@@ -8,6 +8,20 @@ This document describes the rules for annotating social interactions of the part
 4. **Annotation Tool:** We distribute the annotation tool and offer a brief explanation on how to use it. A more detailed guide to the tool can be found [here](./README.md).
 5. **Interrater Reliability:** Finally, we assess interrater reliability by annotating various sections of multiple gameplay sessions. The head researcher and all annotators participate in this process. If reliability is deemed insufficient, we discuss inconsistencies and make necessary adjustments to the annotation scheme. This iterative process continues until satisfactory interrater reliability is achieved.
 
+Interrater reliability was calculated through Fleiss' Kappa between three independent raters. Please refer to the table below for an overview of the interpretation of the computed Kappa value. 
+
+Multiple round of annotation testing were performed to reach consistent substantial agreement between raters, what was achieved after five rounds. Kappa values per round were: (1) 0.484, (2) 0.561, (3) 0.637, (4) 0.639, (5) 0.608. 
+
+   
+    | Kappa  | Level of Agreement |
+    | :---   | :---               |
+    | \> 0.8 | Almost perfect     |
+    | \> 0.6 | Substantial        |
+    | \> 0.4 | Moderate           |
+    | \> 0.2 | Fair               |
+    | \> 0.0 | Slight             |
+    | <= 0.0 | No agreement       |
+
 
 ## Table of Contents
 
