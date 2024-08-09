@@ -12,14 +12,14 @@ Interrater reliability was calculated through Fleiss' Kappa between three indepe
 
 Multiple round of annotation testing were performed to reach consistent substantial agreement between raters, what was achieved after five rounds. Kappa values per round were: (1) 0.484, (2) 0.561, (3) 0.637, (4) 0.639, (5) 0.608. 
 
- | Kappa  | Level of Agreement |
- | :---   | :---               |
- | \> 0.8 | Almost perfect     |
- | \> 0.6 | Substantial        |
- | \> 0.4 | Moderate           |
- | \> 0.2 | Fair               |
- | \> 0.0 | Slight             |
- | <= 0.0 | No agreement       |
+ | Kappa     | Level of Agreement |
+ | :---      | :---               |
+ | $\gt 0.8$ | Almost perfect     |
+ | $\gt 0.6$ | Substantial        |
+ | $\gt 0.4$ | Moderate           |
+ | $\gt 0.2$ | Fair               |
+ | $\gt 0.0$ | Slight             |
+ | $\le 0.0$ | No agreement       |
 
 
 ## Table of Contents
